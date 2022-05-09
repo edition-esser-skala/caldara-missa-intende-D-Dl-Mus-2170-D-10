@@ -6,7 +6,13 @@
 \include "ees.ly"
 
 
+vv = \markup \remark "Vv."
+vvE = \markup \remarkE "Vv."
+
+
 tempoGloria = \tempoMarkup "Allegro"
+  tempoGratias = \tempoMarkup "Allegro"
+  tempoPropter   = \tempoMarkup "Allegro"
 
 
 \include "notes/ob1.ly"
