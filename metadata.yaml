@@ -1,0 +1,19 @@
+composer:
+  last: Caldara
+  first: Antonio
+title: Missa Intende in adiutorium meum
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, clno, 2 vl, 2 vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2170-D-10
+    date: 1727
+    rism: 212006719
+    url: https://digital.slub-dresden.de/id425837203
+    license: public domain
+    principal: true
+imslp:
+parts:
+  clno: Clarino
