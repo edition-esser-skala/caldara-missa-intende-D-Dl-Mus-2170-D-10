@@ -110,3 +110,93 @@ GloriaAltoLyrics = \lyricmode {
   _ ri -- am tu --
   am. %54 finis
 }
+
+DomineDeusAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoDomineDeus
+      \set Score.currentBarNumber = #55
+    R2.*7 %61
+    \mvTr g'2.~\pE^\solo
+    g~
+    g4 g4.\trillE fis16[ g]
+    a2.~ %65
+    a4 a4.\trill g16[ a]
+    h4~ h16[ a g fis] g4
+    a4. g8 a4
+    h8([ a)] g4 r
+    r g fis %70
+    e2 d4
+    r g g
+    g4. a16[ h] a8.[ g16]
+    fis4. g16[ a] g8.[ fis16]
+    e8[ fis16 g] a2~ %75
+    a8 g16 fis e4. d8
+    d2 r4
+    R2.
+    g4. h16[ a] g8[ a16 h]
+    e,4. e8 e4 %80
+    a4. h8 a g
+    fis([ e)] d4 r
+    r g g
+    g2.
+    gis %85
+    a
+    ais
+    h4 fis4. fis8
+    d8.([ e16] cis4.) h8
+    h2 r4 %90
+    R2.
+    r4 h' g
+    a4. h8 a[ h16 fis]
+    g4. a8 g[ a16 e]
+    fis4. g16[ fis] h8[ g16 fis] %95
+    e4. fis16[ g] fis8.([ e32 fis)]
+    g4 d g4~
+    g8[ a] fis4. g8
+    g2 r4
+    R2.*6 %105
+    R2.\fermata \bar "||" %106 finis
+  }
+}
+
+DomineDeusAltoLyrics = \lyricmode {
+  Do -- %62
+
+  _ _
+  _ %65
+  _ _
+  _ _
+  _ mi -- ne
+  De -- us,
+  Rex coe -- %70
+  le -- stis,
+  De -- us
+  Pa -- _ _
+  _ _ _
+  _ _ %75
+  ter o -- mni -- po --
+  tens.
+
+  Do -- _ _
+  _ mi -- ne %80
+  De -- us, Rex coe --
+  le -- stis,
+  De -- us
+  Pa --
+  _ %85
+  _
+  _
+  _ ter o --
+  mni -- po --
+  tens, %90
+
+  De -- us
+  Pa -- _ _
+  _ _ _
+  _ _ _ %95
+  _ _ _
+  _ ter o --
+  mni -- po --
+  tens. %99 finis
+}

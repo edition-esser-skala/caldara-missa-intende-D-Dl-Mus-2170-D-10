@@ -12,7 +12,8 @@ vvE = \markup \remarkE "Vv."
 
 tempoGloria = \tempoMarkup "Allegro"
   tempoGratias = \tempoMarkup "Allegro"
-  tempoPropter   = \tempoMarkup "Allegro"
+  tempoPropter = \tempoMarkup "Allegro"
+tempoDomineDeus = \tempoMarkup "Andante"
 
 
 \include "notes/ob1.ly"

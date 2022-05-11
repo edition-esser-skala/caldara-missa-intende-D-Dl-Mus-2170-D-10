@@ -117,3 +117,118 @@ GloriaBassFigures = \figuremode {
   <6>4 <7> <4> <3>
   r1 %54 finis
 }
+
+DomineDeusOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \tempoDomineDeus
+      \set Score.currentBarNumber = #55
+    \mvTr g'8\f-\soloE fis g fis g g,
+    fis' e fis e fis fis,
+    e' d e d e e,
+    d' c! d c d d,
+    c' h c h c c,
+    h' a h g a h %60
+    c a d c d d,
+    g'\pE fis g fis g g,
+    fis' e fis e fis fis,
+    e' d e d e e,
+    d' c d c d d, %65
+    c' h c h c c,
+    h' a h g a h
+    c a d e d d,
+    g' fis g a h a
+    g a h g a fis %70
+    g fis g e fis d
+    e d e fis e d
+    cis h cis a h cis
+    d cis d e fis g
+    a g fis e d cis %75
+    d g a g a a,
+    d'\f cis d cis d d,
+    c' h c h c c,
+    h'\p a h a h h,
+    c' h c h c c, %80
+    cis' h cis h cis a
+    d cis d cis d d,
+    h' a h a h h,
+    c'! h c h c c,
+    h' a h a h h, %85
+    a' gis a gis a a,
+    fis' e fis e fis fis,
+    d' e d cis h ais
+    h e fis e fis fis,
+    h'\f a! h a h g %90
+    a g a g a d,
+    g fis g\p fis g g,
+    fis' e fis e fis fis,
+    e' d e d e e,
+    d' c d c d d, %95
+    c' h c h c c,
+    h' a h g a h
+    c a d c d d,
+    g'\f fis g fis g g,
+    fis' e fis e fis fis, %100
+    e' d e d e e,
+    d' c d c d d,
+    c' h c h c c,
+    h' a h g a h
+    c a d c d d, %105
+    g2.\fermata \bar "||" %106 finis
+  }
+}
+
+DomineDeusBassFigures = \figuremode {
+  r2. %55
+  <6>
+  <7>4 <6\\>2
+  r2 <6>4
+  <7> <6>2
+  <7>4 <6>2 %60
+  <6 5>2.
+  r
+  <9 6 4>
+  <5>
+  r %65
+  <6>
+  q
+  q
+  r
+  r4 <6> q %70
+  q <\t> <6>
+  <5>2.
+  <5>2 <7>8 <\t>
+  r2.
+  r4 <6>2 %75
+  r4 <5 4> <\t _+>
+  r2.
+  <6 4>
+  <6>
+  <5>2 <6>4 %80
+  q2 r8 <_+>
+  r2.
+  <6>
+  <5>
+  <6\\> %85
+  <_!>
+  <_+>
+  <6>
+  r4 <5+ 4> <\t _+>
+  r2 <6>4 %90
+  <7> <6>2
+  r2.
+  <6>
+  <5>2 <6>4
+  <7>2 <6>4 %95
+  <8>2 <6 4>4
+  <6>2.
+  r
+  r
+  <6> %100
+  <5>2 <6>4
+  <7> <6>2
+  <7>4 <6>2
+  <7>4 <6>2
+  <6 5>2. %105
+  r %106 finis
+}
