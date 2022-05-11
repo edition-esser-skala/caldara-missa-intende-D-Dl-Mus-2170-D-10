@@ -111,9 +111,74 @@ GloriaSopranoLyrics = \lyricmode {
   am. %54 finis
 }
 
+DomineFiliSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoDomineFili
+      \set Score.currentBarNumber = #107
+    R1*4 %110
+    \mvTr d'8.\pE^\solo a16 a4 r2
+    fis'8.([ e16]) d8 e16([ fis)] e8 a, e' d16([ e)]
+    fis8. e16 d4 e8.[ fis16] e[ fis e fis]
+    e2~ e16[ fis e fis] e[ fis e fis]
+    d2~ d16[ e d e] d[ e d e] %115
+    cis[ e] d([ cis)] h4 a r
+    r8 a d[ fis16 e] d8[ a] fis'[ a16 g]
+    fis8[ d a d] a[ fis] d'16[ e d e]
+    d8. a16 a4 r2
+    d4 d8 cis h8.([ a16)] h4 %120
+    e8 fis e d cis8. h16 cis4
+    r2 fis16[ g fis g] fis[ g fis g]
+    e[ fis e fis] e[ fis e fis] d[ e d e] d[ e d e]
+    cis[ d cis d] cis[ d cis d] d[ fis] e([ d)] cis4
+    h8 a! h cis d4( c16[ h c d)] %125
+    h4 r r2
+    cis!4 d8 e fis fis e fis16([ e)]
+    d8. d16 d4 cis16[ h cis d] cis[ d h cis]
+    d[ cis d e] d[ e d e] cis[ d cis d] cis[ d cis d]
+    cis[ a] d([ e)] cis8.([ h32 cis)] d4 r %130
+    fis8.[ e16] fis[ e fis e] d2~
+    d1~
+    d2~ d16[ a h cis] d[ e cis d]
+    h[ h cis d] e[ fis d e] cis[ cis d e] fis[ g e fis]
+    d[ d e fis] g[ a fis g] e[ a, h cis] d[ e d e] %135
+    fis[ g fis g] fis[ g fis g] fis8 e16([ d)] cis4
+    d r r2
+    R1*3 %140
+    R1\fermata \bar "||" %141 finis
+  }
+}
 
+DomineFiliSopranoLyrics = \lyricmode {
+  Do -- mi -- ne, %111
+  Do -- mi -- ne Fi -- li u -- ni --
+  ge -- ni -- te, Je -- _
+  _ _
+  _ _ %115
+  _ su Chri -- ste,
+  Do -- _ _ _
+  _ _ _
+  _ mi -- ne,
+  Do -- mi -- ne Fi -- li, %120
+  Fi -- li u -- ni -- ge -- ni -- te,
+  Je -- _
+  _ _ _ _
+  _ _ _ su Chri --
+  ste, Do -- mi -- ne Fi -- %125
+  li,
+  Do -- mi -- ne Fi -- li u -- ni --
+  ge -- ni -- te, Je -- _
+  _ _ _ _
+  _ su Chri -- ste, %130
+  Je -- _ _
 
-% Do -- mi -- ne Fi -- li u -- ni -- ge -- ni -- te, Je -- su Chri -- ste,
+  _
+  _ _ _ _
+  _ _ _ _ %135
+  _ _ _ su Chri --
+  ste. %137 finis
+}
+
 % Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris.
 % Qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.

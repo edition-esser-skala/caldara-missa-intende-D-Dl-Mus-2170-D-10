@@ -58,3 +58,43 @@ GloriaClarino = {
     fis1\fermata \bar "||" %54 finis
   }
 }
+
+DomineFiliClarino = {
+  \transpose d c \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoDomineFili
+      \set Score.currentBarNumber = #107
+    d'8.\fE a16 a4 fis'8. e16 d8 e16 fis
+    e8 a, a' g16 a fis e d8 a' g16 fis
+    e fis e fis e fis e fis e8 fis16 g a8 g16 fis
+    e a g fis e8. d16 d8 d a8. a16 %110
+    fis4 r d'8. a16 a4
+    R1*2
+    a'8.\pE h16 a h a h a2~
+    a16 h a h a h a h gis4 gis8.( fis32 gis) %115
+    a16 gis a h gis8. a16 a8 a g? a16 g
+    fis4 r r8 a, d fis16 e
+    d8 a fis' a16 g fis8 d a d
+    a fis d'16 e d e d8. a16 a4
+    r2 g'4 g8 fis %120
+    e8. d16 e4 a8 h a g
+    fis8. e16 fis4 a16 h a h a h a h
+    g a g a g a g a fis g fis g fis g fis g
+    fis2~ fis8 fis fis8. e16
+    d4 r r2 %125
+    r8 d\fE e fis g4 fis16 e fis g
+    e4 r r2
+    fis16\pE e fis g fis g fis g e4 a,
+    fis'16 e fis g fis g fis g e fis e fis e fis e fis
+    e8 fis16 g e8.( d32 e) d8 a fis a %130
+    d,4 r fis'16 e fis g fis g e fis
+    g fis g a g a g a fis e fis g fis g e fis
+    g fis g a g a g a fis4 r
+    R1*3 %136
+    d8.\fE a16 a4 fis'8. e16 d8 e16 fis
+    e8 a, a' g16 a fis^\critnote e d8 a' g16 fis
+    e fis e fis e fis e fis e a g fis e8. d16
+    d8 d a8. a16 fis4 r %140
+    r16 a' g fis e8. d16 d2\fermata \bar "||" %141 finis
+  }
+}

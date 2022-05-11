@@ -90,8 +90,44 @@
   %     \midi { \tempo 4 = 110 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Domine Deus"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #20
+  %     system-system-spacing.minimum-distance = #20
+  %     systems-per-page = #4
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "vl" "1, 2" }
+  %           \DomineDeusViolinoI
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \DomineDeusAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \DomineDeusAltoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \DomineDeusOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \DomineDeusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Domine Deus"
+    \subsection "Domine Fili"
     \addTocEntry
     \paper {
       system-system-spacing.basic-distance = #20
@@ -100,30 +136,29 @@
     }
     \score {
       <<
-        \new StaffGroup \with { \smallGroupDistance } <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "vl" "1, 2" }
-            \DomineDeusViolinoI
-          }
-        >>
+        \new Staff \with { \smallStaffDistance } {
+          \set Staff.instrumentName = \markup \center-column { "clno" "solo" }
+          % \transpose c d
+          \DomineFiliClarino
+        }
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \DomineDeusAlto }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \DomineFiliSoprano }
           }
-          \new Lyrics \lyricsto Alto \DomineDeusAltoLyrics
+          \new Lyrics \lyricsto Soprano \DomineFiliSopranoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \DomineDeusOrgano
+            \DomineFiliOrgano
           }
         >>
-        \new FiguredBass { \DomineDeusBassFigures }
+        \new FiguredBass { \DomineFiliBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 120 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }
