@@ -120,3 +120,45 @@ DomineDeusViolinoI = {
     g,2.\fermata \bar "||" %106 finis
   }
 }
+
+DomineAgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \mixolydian \time 6/4 \tempoDomineAgnus
+      \set Score.currentBarNumber = #142
+    r2 r4 r8 \mvTr e'\fE-\tutti gis e gis e
+    a4 r r r8 fis h fis h fis
+    gis e fis gis a gis a2.~
+    a4 a4. gis8 a e a e cis e %145
+    a,4 r r r2 r4
+    R1.
+    r8 e' gis e gis e a4 r r
+    r8 d, fis d fis d a' fis h fis h fis
+    gis e fis gis a gis a2.~ %150
+    a4 a4. gis8 a e a e cis e
+    a,4 r r r2 r4
+    R1.
+    r8 \mvTr d\p-\vv fis d fis d a'4 r r
+    r8 a cis a cis a d4 r r %155
+    r8 gis, h gis h gis cis4 r r
+    r8 fis, a fis a fis h4 r r
+    r8 e, gis e gis e a4 r r
+    r8 e gis e gis e a4 r r
+    r8 h, dis h dis h e4 r r %160
+    r2 r4 r8 \mvTr e\f-\tutti gis e gis e
+    h'4 r r r8 e, gis e gis e
+    a gis fis2 e4 r r
+    r8 \mvTr cis\p-\vv e cis e cis fis4 r r
+    r8 e, gis e gis e e'4 r r %165
+    r8 a, cis a cis a d4 r r
+    r8 d fis d fis d h'4 r r
+    r2 r4 r8 \mvTr e,\f-\tutti a e cis e
+    a,4 r r r2 r4
+    R1.*4 %173
+    r8 e' gis e gis e a4 r r
+    r8 fis h fis h fis gis e fis gis a gis %175
+    a2.~ a4 a4. gis8
+    a e a e cis e a,4 r r
+    R1.\fermata \bar "||" %178 finis
+  }
+}

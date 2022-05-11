@@ -110,3 +110,65 @@ GloriaBassoLyrics = \lyricmode {
   _ ri -- am tu --
   am. %54 finis
 }
+
+DomineAgnusBasso = {
+  \relative c {
+    \clef bass
+    \key a \mixolydian \time 6/4 \autoBeamOff \tempoDomineAgnus
+      \set Score.currentBarNumber = #142
+    R1.*4 %145
+    r2 r4 \mvTr a'4.\pE^\soloE a8 a4
+    d,4. d8 d4 a'2 a,4
+    R1.*4 %151
+    r2 r4 a'4. a8 a4
+    d d8([ cis)] d([ e)] cis([ h)] cis2
+    d4. cis8 d e cis([ h)] cis2
+    a4. h8 cis4 fis,2. %155
+    gis4. a8 h4 e,2.
+    fis4. gis?8 a4 d,2.
+    e8[ d e fis d e] fis[ e fis gis e fis]
+    gis[ fis gis a fis gis] a[ gis a h gis a]
+    h[ a h cis a h] gis[ fis gis e fis gis] %160
+    a[ fis] h4 h, e2 r4
+    R1.*2
+    a4. h8 g!4 fis fis r
+    gis4. a8 gis fis e4 e r %165
+    a fis a h2.~
+    h8[ a h a h a] gis[ fis gis e fis gis]
+    a[ d,] e2 a, r4
+    r2 r4 cis'4. h8 cis4
+    d8[ cis d h cis d] cis[ h cis a h cis] %170
+    h[ a h gis a h] a[ gis a fis gis a]
+    h[ a h cis h a] gis[ fis gis e fis gis]
+    a[ d,] e2 a, r4
+    R1.*4 %177
+    R1.\fermata \bar "||" %178 finis
+  }
+}
+
+DomineAgnusBassoLyrics = \lyricmode {
+  Do -- mi -- ne, %146
+  Do -- mi -- ne De -- us,
+
+  Do -- mi -- ne, %152
+  Do -- mi -- ne De -- us,
+  De -- us, A -- gnus De -- i,
+  Fi -- li -- us Pa -- %155
+  _ _ _ _
+  _ _ _ _
+  _ _
+  _ _
+  _ _ %160
+  _ _ _ tris.
+
+  Do -- mi -- ne De -- us, %164
+  De -- us, A -- gnus De -- i, %165
+  Fi -- li -- us Pa --
+  _
+  _ _ tris,
+  Fi -- li -- us
+  Pa -- _ %170
+  _ _
+  _ _
+  _ _ tris. %173 finis
+}

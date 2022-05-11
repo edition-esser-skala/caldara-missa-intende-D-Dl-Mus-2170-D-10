@@ -313,3 +313,88 @@ DomineFiliBassFigures = \figuremode {
   r1 %140
   r %141 finis
 }
+
+DomineAgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key a \mixolydian \time 6/4 \tempoDomineAgnus
+      \set Score.currentBarNumber = #142
+    \mvTr a'4\fE-\solo r r gis r r
+    fis r r d r r
+    e r r a, r r
+    d e e, a r r %145
+    a r r a r r
+    d\pE r r a\fE r r
+    gis r r fis r r
+    d' r r d r r
+    e r r a, r r %150
+    d e e, a r r
+    a r r a r r
+    d\pE r r a r r
+    fis r r a r r
+    a r r fis' r r %155
+    gis r r e r r
+    fis r r d r r
+    e r r fis r r
+    gis r r a r r
+    h r r gis r r %160
+    a h h, e\fE r r
+    dis r r cis r r
+    a h2 e4 r r
+    a,\pE r r d r r
+    e r r e, r r %165
+    a r r h r r
+    h r r e r r
+    a,8 d e4 e, a r r
+    a\fE r r a r r
+    d\pE r r cis r r %170
+    h r r a r r
+    d r r e r r
+    a,8 d e4 e, a\fE r r
+    gis r r fis r r
+    d' r r e r r %175
+    a, r r d e e,
+    a r r a r r
+    a r r r2 r4\fermata \bar "||" %178 finis
+  }
+}
+
+DomineAgnusBassFigures = \figuremode {
+  r2. \bc <[6]> %142
+  <5> \bc <[6]>
+  <7 _+>1.
+  r4 <4> <_+> r2. %145
+  r1.
+  r
+  \bo <[6]>2. <5>
+  r <5>4 \bc <[6]>2
+  <7 _+>1. %150
+  r4 <4> <_+> r2.
+  r1.
+  r
+  <6>
+  r2. \bo <[6]> %155
+  <5> \bc <[6] _+>
+  <5> <6>
+  <_+> <5>
+  <6>1.
+  <_+>2. <6> %160
+  r4 <_+>2 <[_+]>2.
+  <6> <5+>
+  <5>4 <4> <_+> q2.
+  r1.
+  <_+>2. q %165
+  <[6]> <5>
+  r <[7] _+>
+  r4 <4> <_+> r2.
+  r1.
+  r2. <6> %170
+  <6\\>1.
+  <6>2. <7 _+>
+  r4 \bo <[4]> \bc <[_+]> r2.
+  <[6]> <5>
+  <6> <7 _+> %175
+  r1 <4>4 <_+>
+  r1.
+  r %178 finis
+}

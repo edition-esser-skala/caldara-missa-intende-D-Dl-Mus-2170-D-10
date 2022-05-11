@@ -55,3 +55,35 @@ GloriaOboeI = {
     d1\fermata \bar "||" %54 finis
   }
 }
+
+DomineAgnusOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \mixolydian \time 6/4 \tempoDomineAgnus
+      \set Score.currentBarNumber = #142
+    r2 r4 r8 e'\fE gis e gis e
+    a4 r r r8 fis h fis h fis
+    gis e fis gis a gis a2.~
+    a4 a4. gis8 a e a e cis e %145
+    a,4 r r r2 r4
+    R1.
+    r8 e' gis e gis e a4 r r
+    r8 d, fis d fis d a' fis h fis h fis
+    gis e fis gis a gis a2.~ %150
+    a4 a4. gis8 a e a e cis e
+    a,4 r r r2 r4
+    R1.*8 %160
+    r2 r4 r8 e'\f gis e gis e
+    h'4 r r r8 e, gis e gis e
+    a gis fis2 e4 r r
+    R1.*4 %167
+    r2 r4 r8 e\f a e cis e
+    a,4 r r r2 r4
+    R1.*4 %173
+    r8 e' gis e gis e a4 r r
+    r8 fis h fis h fis gis e fis gis a gis %175
+    a2.~ a4 a4. gis8
+    a e a e cis e a,4 r r
+    R1.\fermata \bar "||" %178 finis
+  }
+}

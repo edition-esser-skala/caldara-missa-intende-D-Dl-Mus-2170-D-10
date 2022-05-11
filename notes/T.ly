@@ -110,3 +110,67 @@ GloriaTenoreLyrics = \lyricmode {
   ri -- am tu --
   am. %54 finis
 }
+
+DomineAgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \mixolydian \time 6/4 \autoBeamOff \tempoDomineAgnus
+      \set Score.currentBarNumber = #142
+    R1.*4 %145
+    r2 r4 \mvTr e4.\pE^\soloE fis8 e4
+    fis fis8([ e)] fis([ d)] e4 a, r
+    R1.*4 %151
+    r2 r4 e'4. fis8 e4
+    fis fis8([ e)] fis([ g)] e([ d)] e2
+    fis4. e8 fis g e([ d)] e2
+    r r4 d4. e8 fis4 %155
+    h,2. cis4. d8 e4
+    a,2. h4. cis8 d4
+    gis,8[ fis gis a fis gis] a[ gis a h gis a]
+    h[ a h cis a h] cis[ h cis dis h cis]
+    dis[ cis dis e cis dis] e2.~ %160
+    e8[ fis] dis4. cis16[ dis] e2 r4
+    R1.
+    r2 r4 e4. fis8 d!4
+    cis cis r d4. e8 d cis
+    h4 h r e cis e %165
+    fis2.~ fis8[ e fis e fis e]
+    d2.~ d4. e8[ d e]
+    cis[ d] h2 a r4
+    r2 r4 e'4. d8 e4
+    fis8[ e fis d e fis] e[ d e cis d e] %170
+    d[ cis d h cis d] cis[ h cis a h cis]
+    d2.~ d4. e8[ d e]
+    cis[ d] h2 a r4
+    R1.*4 %177
+    R1.\fermata \bar "||" %178 finis
+  }
+}
+
+DomineAgnusTenoreLyrics = \lyricmode {
+  Do -- mi -- ne, %146
+  Do -- mi -- ne De -- us,
+
+  Do -- mi -- ne, %152
+  Do -- mi -- ne De -- us,
+  De -- us, A -- gnus De -- i,
+  Fi -- li -- us %155
+  Pa -- _ _ _
+  _ _ _ _
+  _ _
+  _ _
+  _ _ %160
+  _ _ tris.
+
+  Do -- mi -- ne
+  De -- us, De -- us, A -- gnus
+  De -- i, Fi -- li -- us %165
+  Pa --
+  _ _
+  _ _ tris,
+  Fi -- li -- us
+  Pa -- _ %170
+  _ _
+  _ _
+  _ _ tris. %173 finis
+}
