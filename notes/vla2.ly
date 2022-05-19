@@ -60,3 +60,71 @@ GloriaViolaII = {
     fis1\fermata \bar "||"
   }
 }
+
+QuiTollisViolaII = {
+  \relative c' {
+    \clef tenor
+    \key h \minor \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #179
+    r4 \mvTr d\fE d2
+    d r4 d %180
+    gis,2 cis
+    r4 dis8 dis dis2
+    gis, r4 cis
+    h2 cis4 dis
+    h2 r\fermata %185
+    r4 e e2
+    e r4 a,
+    d4. d8 e4 e
+    cis cis8 cis d8. d16 d4
+    r2 e8 e e e %190
+    cis4 h cis2 \noBreak
+    h1\fermata \bar "||"
+    \key g \major \time 3/2 \tempoQuiSedes \newSpacingSection
+      d2\pE r d \noBreak
+    c d r4 d
+    c2 c r4 c %195
+    d2 d r4 g,
+    c2 f r4 f
+    d2 c r4 c
+    a2 r g
+    r4 c a2. a4 %200
+    h1 r2
+    R1.*2
+    d2 r d
+    c d r4 d %205
+    c2 c r4 c
+    d2 r d
+    r4 c a2. a4
+    h1 r2
+    R1.*3 %212
+    r2 r a^\critnote
+    h g r
+    r r a %215
+    a r fis!
+    fis r gis
+    c r c
+    fis,^\critnote h r4 g4
+    a2 a r4 a %220
+    h2 g r4 e
+    fis!2 fis r4 d'
+    e2 r cis
+    d1 r2
+    R1.*6 %230
+    r2 r d
+    e e r4 c
+    d2 d r
+    R1.*2 %235
+    d2 r c
+    d r r
+    R1.*9 %246
+    d2 r c
+    d r d
+    c r a
+    h r fis %250
+    g r a
+    a r h
+    c r a
+    h1 r2\fermata \bar "||" %254 finis
+  }
+}

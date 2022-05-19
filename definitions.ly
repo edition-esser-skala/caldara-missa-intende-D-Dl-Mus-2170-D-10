@@ -16,6 +16,8 @@ tempoGloria = \tempoMarkup "Allegro"
 tempoDomineDeus = \tempoMarkup "Andante"
 tempoDomineFili = \tempoMarkup "[Tempo deest]"
 tempoDomineAgnus = \tempoMarkup "Allegro"
+tempoQuiTollis = \tempoMarkup "Adagio"
+  tempoQuiSedes = \tempoMarkup "Largo"
 
 
 \include "notes/ob1.ly"

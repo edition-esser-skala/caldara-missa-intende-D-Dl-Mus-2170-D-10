@@ -174,3 +174,124 @@ DomineAgnusTenoreLyrics = \lyricmode {
   _ _
   _ _ tris. %173 finis
 }
+
+QuiTollisTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key h \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #179
+    r4 \mvTr d\fE^\tuttiE d2
+    d r4 d %180
+    d4. d8 cis4 cis
+    r h8 h h2
+    h r4 a8 a
+    h4 h cis( h8[ a)]
+    h2 r\fermata %185
+    r4 e e2
+    e r4 e
+    fis4. fis8 e4 e
+    e e8 e d8. d16 d4
+    r2 e8 h cis cis %190
+    cis4 d8.([ e16)] fis2 \noBreak
+    fis1\fermata \bar "||"
+    \key g \major \time 3/2 \newSpacingSection \tempoQuiSedes
+      R1.*8 %200
+    r2 r \mvTr d\pE^\soloE
+    e d r4 d
+    e2. d4 c2
+    d4( c) h2 r
+    R1.*4 %208
+    r2 r d
+    e d r4 d %210
+    e2. d4 c2
+    d4( c) h2 h4 h
+    e2 d r
+    R1.
+    r2 r c4 c %215
+    d1 c2~
+    c h1
+    c r2
+    R1.*6 %224
+    r2 e e %225
+    e1.
+    d~
+    d2 e4 h cis? d
+    cis h a1
+    h2( a1) %230
+    a r2
+    R1.
+    r2 r d
+    e d r4 d
+    e2. d4 c2 %235
+    d4( c) h2 r
+    r h4( c) d( e)
+    d2. e4 d c
+    h2 c4 d c h
+    a2. a4 h a %240
+    g2. a4 fis g
+    a1 d2
+    d1.
+    h2 d d
+    e1 e2~ %245
+    e d1
+    d r2
+    R1.*6 %253
+    R1.\fermata \bar "||" %254 finis
+  }
+}
+
+QuiTollisTenoreLyrics = \lyricmode {
+  Qui tol -- %179
+  lis pec -- %180
+  ca -- ta mun -- di:
+  Mi -- se -- re --
+  re, mi -- se --
+  re -- re no --
+  bis. %185
+  Qui tol --
+  lis pec --
+  ca -- ta mun -- di:
+  Su -- sci -- pe, su -- sci -- pe
+  de -- pre -- ca -- ti -- %190
+  o -- nem no --
+  stram.
+
+  Qui %201
+  se -- des ad
+  dex -- te -- ram
+  Pa -- tris,
+
+  qui %209
+  se -- des ad %210
+  dex -- te -- ram
+  Pa -- tris: Mi -- se --
+  re -- re,
+  mi -- se -- %215
+  re -- re __
+  no --
+  bis,
+
+  mi -- se -- %225
+  re --
+  _
+  _ _ _ _
+  _ _ re
+  no -- %230
+  bis.
+
+  Qui
+  se -- des ad
+  dex -- te -- ram %235
+  Pa -- tris:
+  Mi -- se --
+  re -- _ _ _
+  _ _ _ _ _
+  _ _ _ _ %240
+  _ _ _ _
+  _ re
+  no --
+  bis, mi -- se --
+  re -- re __ %245
+  no --
+  bis. %247 finis
+}

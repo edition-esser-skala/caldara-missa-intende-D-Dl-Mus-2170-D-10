@@ -86,3 +86,27 @@ DomineAgnusOboeII = {
     a4 r r r2 r4\fermata \bar "||" %178 finis
   }
 }
+
+QuiTollisOboeII = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #179
+    r4 h'\fE h2
+    h r4 h^\critnote %180
+    eis,2^\critnote ais
+    r4 a8 a a2
+    gis r4 a
+    h2 a
+    h r\fermata %185
+    r4 e e2
+    e r4 e
+    d4. d8 cis4 cis
+    e e8 e d8. d16 d4
+    r2 e8 e e e %190
+    e4 d cis2 \noBreak
+    dis1\fermata \bar "||"
+    \key g \major \time 3/2 \tempoQuiSedes R1.*61 %253
+    R1.\fermata \bar "||" %254 finis
+  }
+}

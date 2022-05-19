@@ -162,3 +162,71 @@ DomineAgnusViolinoI = {
     R1.\fermata \bar "||" %178 finis
   }
 }
+
+QuiTollisViolinoI = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #179
+    r4 \mvTr d'\fE-\tutti d2
+    d r4 d %180
+    d2 cis
+    r4 h8 h h2
+    h r4 cis
+    dis e2 dis4
+    e2 r\fermata %185
+    r4 a a2
+    a r4 a
+    fis4. fis8 e4 e
+    g! g8 g fis8. fis16 fis4
+    r2 h8 h ais gis %190
+    ais4 h2 ais4 \noBreak
+    h1\fermata \bar "||"
+    \key g \major \time 3/2 \tempoQuiSedes \newSpacingSection
+      \mvTr d,2\p-\vv r d \noBreak
+    e d r4 d
+    e2 fis r4 c' %195
+    c2 h r4 g
+    g2 f r4 f
+    f2 e r4 c
+    c2 r h
+    r4 a a2. g4 %200
+    g2 g, r
+    R1.*2
+    d''2 r d
+    e d r4 d %205
+    e2 fis r4 c'
+    c2 r h
+    r4 a a2. g4
+    g2 g, r
+    R1.*3 %212
+    r2 r d'4 c!
+    h2 c r
+    r r a %215
+    a r a
+    a r e'
+    c r f4 e
+    dis2 e r4 e
+    cis2 d! r4 d %220
+    h2 c! r4 c
+    ais2 h r4 d
+    cis2 r cis
+    h h, r
+    R1.*6 %230
+    r2 r h''4 a
+    gis2 a r4 a
+    fis2 g! r
+    R1.*2 %235
+    d2 r e
+    d r r
+    R1.*9 %246
+    d2 r e
+    d r g
+    g r fis
+    g r d %250
+    d r  c
+    c r h
+    a r a
+    g g, r\fermata \bar "||" %254 finis
+  }
+}

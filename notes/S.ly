@@ -179,13 +179,128 @@ DomineFiliSopranoLyrics = \lyricmode {
   ste. %137 finis
 }
 
+QuiTollisSoprano = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #179
+    r4 \mvTr h'\fE^\tuttiE h2
+    h r4 h %180
+    h4. h8 ais4 ais
+    r a8 a a2
+    gis r4 cis8 cis
+    dis dis e2( dis4)
+    e2 r\fermata %185
+    r4 e e2
+    e r4 e
+    d4. d8 cis4 cis
+    cis cis8 cis h8. h16 h4
+    h8 h cis d e2~ %190
+    e4 d cis2 \noBreak
+    dis1\fermata \bar "||"
+    \key g \major \time 3/2 \newSpacingSection \tempoQuiSedes
+      R1.*8 %200
+    r2 r \mvTr h\pE^\solo
+    c h r4 h
+    c2. d4 c2
+    h4( a) g2 r
+    R1.*4 %208
+    r2 r h
+    c h r4 h %210
+    c2. d4 c2
+    h4( a) g2 e'4 d
+    cis2 d r
+    r r e4 c
+    a1. %215
+    a
+    a1( gis2)
+    a1 r2
+    R1.*6 %224
+    r2 e' h %225
+    cis1.~
+    cis2 d4 cis h a
+    h1.
+    a1 d2~
+    d cis1 %230
+    d r2
+    R1.
+    r2 r h
+    c h^\critnote r4 h
+    c2. d4 c2 %235
+    h4( a) g2 r
+    R1.
+    a1 a2
+    g1.~
+    g2 fis d'~ %240
+    d g, c!~
+    c h( a)
+    h( a1)
+    g2 h h
+    a1 a2~ %245
+    a a1
+    h r2
+    R1.*6 %253
+    R1.\fermata \bar "||" %254 finis
+  }
+}
 
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram.
-% Qui se -- des ad dex -- te -- ram Pa -- tris:
-% Mi -- se -- re -- re no -- bis.
+QuiTollisSopranoLyrics = \lyricmode {
+  Qui tol -- %179
+  lis pec -- %180
+  ca -- ta mun -- di:
+  Mi -- se -- re --
+  re, mi -- se --
+  re -- re no --
+  bis. %185
+  Qui tol --
+  lis pec --
+  ca -- ta mun -- di:
+  Su -- sci -- pe, su -- sci -- pe
+  de -- pre -- ca -- ti -- o -- %190
+  nem no --
+  stram.
+
+  Qui %201
+  se -- des ad
+  dex -- te -- ram
+  Pa -- tris,
+
+  qui %209
+  se -- des ad %210
+  dex -- te -- ram
+  Pa -- tris: Mi -- se --
+  re -- re,
+  mi -- se --
+  re -- %215
+  re
+  no --
+  bis,
+
+  mi -- se -- %225
+  re --
+  _ _ _ _
+  _
+  re no --
+  _ %230
+  bis.
+
+  Qui
+  se -- des ad
+  dex -- te -- ram %235
+  Pa -- tris:
+
+  Mi -- se --
+  re --
+  re, mi -- %240
+  se -- re --
+  re __
+  no --
+  bis, mi -- se --
+  re -- re __ %245
+  no --
+  bis. %247 finis
+}
+
 % Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
 % tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
 % Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.

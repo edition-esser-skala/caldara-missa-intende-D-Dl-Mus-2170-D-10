@@ -398,3 +398,167 @@ DomineAgnusBassFigures = \figuremode {
   r1.
   r %178 finis
 }
+
+QuiTollisOrgano = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #179
+    r4 \mvTr h\f-\tuttiE h2
+    h r4 h' %180
+    eis,2 fis
+    r4 dis dis2
+    e r4 a~
+    a gis fis2
+    e r\fermata %185
+    r4 cis cis2
+    cis r4 cis
+    d2 a
+    ais h
+    r g'8 g fis e %190
+    fis4 h, fis' fis, \noBreak
+    h1\fermata \bar "||"
+    \key g \major \time 3/2 \tempoQuiSedes \newSpacingSection
+      \mvTr g2\p-\soloE r g \noBreak
+    c g r4 g
+    c2 a r4 a %195
+    g1 r4 g
+    a2 d r4 d
+    g,2 c r4 c
+    d2 r g,
+    r4 c d2 d, %200
+    g1 g'2
+    c g r4 h
+    a1.
+    g2 g, g
+    c g r4 g %205
+    c2 a r4 a
+    g2 r g
+    r4 c d2 d,
+    g1 g'2
+    c, g' r4 h %210
+    a1.
+    g1 g2
+    g fis fis
+    f e c
+    f1 a4 f %215
+    d1 dis2~
+    dis e e,
+    a1 a'2
+    a g! r4 g
+    g2 fis r4 f %220
+    f2 e2. e4
+    e2 d r4 h
+    e2 r fis
+    h, r r
+    r e e %225
+    a,1.
+    d
+    g~
+    g2 fis4 e fis d
+    g2 a a, %230
+    d1 d2
+    d c! r4 c
+    c2 h g'
+    c, g' r4 h
+    a1. %235
+    g1 c,2
+    g' g,4 a h c
+    d1.
+    e
+    fis %240
+    e
+    d
+    g,2 d' d,
+    g g1
+    c cis2~ %245
+    cis d d,
+    g r c
+    g r g
+    a r a
+    g r fis %250
+    e r a
+    d r g,
+    c r d
+    g,1 r2\fermata \bar "||" %254 finis
+  }
+}
+
+QuiTollisBassFigures = \figuremode {
+  r1 %179
+  r %180
+  <7 [_+]>2 <_+>
+  r4 <6 5!>2.
+  <_+> <6>4
+  <6 4+ 2> <6> <7> <6\\>
+  <_+>1 %185
+  r4 <6>2.
+  r1
+  r
+  <7!>
+  r2 <6>4 <7 _+>8 <\t _+> %190
+  <7 _+>2 <4>4 <_+>
+  <[_+]>1
+  r1.
+  r
+  r2 <6>2. <\t>4 %195
+  <4>2 <3>1
+  <7>2 \bo <7 [_!]>2. \bc <\t [\t]>4
+  <7!>1 r4 <[6]>
+  <7 _+>1.
+  r4 <6 5> r1 %200
+  r1.
+  r1 r4 <[6]>
+  <7>1 <6>2
+  r1.
+  r %205
+  r2 <6>2. <\t>4
+  <5 4>1 <\t 3>2
+  r4 <6 5> r1
+  r1.
+  r1 r4 <[6]> %210
+  <7>1 <6>2
+  r1 <6>4 <[5]>
+  <4+ 2>2 <6>1
+  <6 4 2>2 <6>1
+  r1 <5>2 %215
+  <_!>1 <7! [_+]>2
+  r <4> <_+>
+  r1 \bo <[8] 6!>4 \bc <[7] 5>
+  <4+ 2>2 <6>2. <\t>4
+  <4+ 2>2 <6>2. <\t>4 %220
+  <4 2>2 <6!>2. <\t>4
+  <[6+] 4+ 2+>2 <6>1
+  <6\\ 5> <[5+] _+>2
+  r1.
+  r %225
+  <7 _+>
+  <7+>
+  <7>2 <6>1
+  <4+ 2>2 <6>1
+  <6 5>2 <[_+]>1 %230
+  r1 \bo <[8 6]>4 \bc <[7! 5]>
+  <4+>2 <6>1
+  <4 2>2 <[6!]>1
+  r1 r4 <[6]>
+  <7>1 <6>2 %235
+  r1.
+  r
+  <5 4>2 <\t 3>1
+  <9 [5]>2 <8 6>1
+  <9 7>2 <8 6>1 %240
+  <7>2 <6!>1
+  \bo <7 [3]>2 \bassFigureExtendersOn \bo <[6] 3> <5 3> \bassFigureExtendersOff
+  r <4> <3>
+  r1.
+  <6 5>1 <\t \t>2 %245
+  r <4> <\t>4 \bc <[3 \l]>
+  r1.
+  r
+  <7>1 <6>2
+  r1 <[6]>2 %250
+  <7>1 q2
+  q1.
+  <6 5>
+  r %254 finis
+}

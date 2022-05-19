@@ -200,3 +200,127 @@ DomineDeusAltoLyrics = \lyricmode {
   mni -- po --
   tens. %99 finis
 }
+
+QuiTollisAlto = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #179
+    r4 \mvTr fis\fE^\tuttiE fis2
+    fis r4 fis %180
+    gis4. gis8 fis4 fis
+    r fis8 fis fis2
+    e r4 fis8 fis
+    fis4 gis a2
+    gis r\fermata %185
+    r4 a a2
+    a r4 a
+    a4. a8 a4 a
+    g! g8 g fis8. fis16 fis4
+    r2 h8 h ais gis %190
+    ais ais h2( ais4) \noBreak
+    h1\fermata \bar "||"
+    \key g \major \time 3/2 \newSpacingSection \tempoQuiSedes
+      R1.*8 %200
+    r2 r \mvTr g\pE^\solo
+    g g r4 g
+    g2. a4 fis2
+    g d r
+    R1.*4 %208
+    r2 r g
+    g g r4 g %210
+    g2. a4 fis2
+    g d h'4 h
+    a2 a r
+    R1.
+    r2 r e4 e %215
+    f1 fis2~
+    fis e1
+    e r2
+    R1.*5 %223
+    r2 h' fis
+    g1.~ %225
+    g2 a4 g fis e
+    fis1.~
+    fis2 g4 fis e d
+    e2 fis1
+    e1. %230
+    fis1 r2
+    R1.
+    r2 r g
+    g g r4 g
+    g2. a4 fis2^\critnote %235
+    g d r
+    r g1~
+    g2 fis1~
+    fis2 e1~
+    e2 d4 cis d2 %240
+    g1.
+    fis
+    g1( fis2)
+    g g g
+    g1 g2~ %245
+    g g2.( fis4)
+    g1 r2
+    R1.*6 %253
+    R1.\fermata \bar "||" %254 finis
+  }
+}
+
+QuiTollisAltoLyrics = \lyricmode {
+  Qui tol -- %179
+  lis pec -- %180
+  ca -- ta mun -- di:
+  Mi -- se -- re --
+  re, mi -- se --
+  re -- re no --
+  bis. %185
+  Qui tol --
+  lis pec --
+  ca -- ta mun -- di:
+  Su -- sci -- pe, su -- sci -- pe
+  de -- pre -- ca -- ti -- %190
+  o -- nem no --
+  stram.
+
+  Qui %201
+  se -- des ad
+  dex -- te -- ram
+  Pa -- tris,
+
+  qui %209
+  se -- des ad %210
+  dex -- te -- ram
+  Pa -- tris: Mi -- se --
+  re -- re,
+
+  mi -- se -- %215
+  re -- re __
+  no --
+  bis,
+
+  mi -- se -- %225
+  re --
+  _ _ _ _
+  _
+  _ _ _ _
+  _ re %230
+  no --
+  bis.
+
+  Qui
+  se -- des ad
+  dex -- te -- ram %235
+  Pa -- tris:
+  Mi --
+  se --
+  re --
+  _ _ _ %240
+  _
+  \xE re
+  no --
+  bis, mi -- se --
+  re -- \x re __ %245
+  no --
+  bis. %247 finis
+}

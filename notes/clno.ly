@@ -98,3 +98,27 @@ DomineFiliClarino = {
     r16 a' g fis e8. d16 d2\fermata \bar "||" %141 finis
   }
 }
+
+QuiTollisClarino = {
+  \transpose d c \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #179
+    r4 fis'\fE fis2
+    fis r4 fis %180
+    gis2 fis
+    r4 fis8 fis fis2
+    e r4 fis~
+    fis e a2
+    gis r\fermata %185
+    r4 a a2
+    a r4 a
+    a4. a8 a4 a
+    e e8 e h'8. h16 h4
+    R1 %190
+    r4 fis fis4. fis8 \noBreak
+    fis1\fermata \bar "||"
+    \time 3/2 \tempoQuiSedes R1.*61 %253
+    R1.\fermata \bar "||" %254 finis
+  }
+}

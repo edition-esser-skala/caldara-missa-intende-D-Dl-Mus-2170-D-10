@@ -172,3 +172,125 @@ DomineAgnusBassoLyrics = \lyricmode {
   _ _
   _ _ tris. %173 finis
 }
+
+QuiTollisBasso = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #179
+    r4 \mvTr h'\fE^\tuttiE h2
+    h r4 h %180
+    eis,4. eis8 fis4 fis
+    r dis8 dis dis2
+    e r4 a8 a
+    a4 gis fis2
+    e r\fermata %185
+    r4 cis cis2
+    cis r4 cis
+    d4. d8 a4 a
+    ais ais8 ais h8. h16 h4
+    r2 g'8 g fis e %190
+    fis4 h, fis'2 \noBreak
+    h,1\fermata \bar "||"
+    \key g \major \time 3/2 \newSpacingSection \tempoQuiSedes
+      R1.*8 %200
+    r2 r \mvTr g'\pE^\soloE
+    c g r4 h
+    a2. a4 a2
+    g g r
+    R1.*4 %208
+    r2 r g
+    c g r4 h %210
+    a2. a4 a2
+    g g g4 g
+    g2 fis r
+    R1.
+    r2 r a4 f %215
+    d1 dis2~
+    dis e1
+    a, r2
+    R1.*6 %224
+    r2 e' e %225
+    a,1.
+    d
+    g~
+    g2 fis4( e fis d)
+    g2( a1) %230
+    d, r2
+    R1.
+    r2 r g
+    c g r4 h
+    a2. a4 a2 %235
+    g g r
+    r g,4( a) h( c)
+    d1.
+    e
+    fis %240
+    e
+    d
+    g,2( d'1)
+    g,2 g g
+    c1 cis2~ %245
+    cis d1
+    g, r2
+    R1.*6 %253
+    R1.\fermata \bar "||" %254 finis
+  }
+}
+
+QuiTollisBassoLyrics = \lyricmode {
+  Qui tol -- %179
+  lis pec -- %180
+  ca -- ta mun -- di:
+  Mi -- se -- re --
+  re, mi -- se --
+  re -- re no --
+  bis. %185
+  Qui tol --
+  lis pec --
+  ca -- ta mun -- di:
+  Su -- sci -- pe, su -- sci -- pe
+  de -- pre -- ca -- ti -- %190
+  o -- nem no --
+  stram.
+
+  Qui %201
+  se -- des ad
+  dex -- te -- ram
+  Pa -- tris,
+
+  qui %209
+  se -- des ad %210
+  dex -- te -- ram
+  Pa -- tris: Mi -- se --
+  re -- re,
+
+  mi -- se -- %215
+  re -- re __
+  no --
+  bis,
+
+  mi -- se -- %225
+  re --
+  _
+  _
+  re __
+  no -- %230
+  bis.
+
+  Qui
+  se -- des ad
+  dex -- te -- ram %235
+  Pa -- tris:
+  Mi -- se --
+  re --
+  _
+  _
+  _
+  re
+  no --
+  bis, mi -- se --
+  re -- re __
+  no --
+  bis.
+}
