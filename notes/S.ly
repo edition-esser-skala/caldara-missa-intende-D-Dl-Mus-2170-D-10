@@ -301,9 +301,152 @@ QuiTollisSopranoLyrics = \lyricmode {
   bis. %247 finis
 }
 
-% Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
-% tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
-% Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
+QuoniamSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #255
+    \mvTr d'8.\fE^\tutti d16 d8 d cis d d cis
+    d d r4 r2
+    r8 d e e d e d8. d16
+    cis4 r r2
+    r8 cis cis d16 e d8. d16 d4
+    r8 h h h16 h cis8. cis16 cis4 %260
+    \tempoJesu d2 d4 d~
+    d2 cis \noBreak
+    d1\fermata \bar "||"
+    r4 d cis cis \noBreak
+    h4. h8 ais2\fermata %265
+    r4 r8 \mvTr h\pE^\solo cis16[( h cis d] cis[ d h cis]
+    d8) cis16 h h4. h8 ais4
+    h cis8 cis h h h4
+    a! r r2
+    r4 r8 h cis16([ h cis d] cis[ d h cis] %270
+    d8) cis16 h d4. d8 cis4
+    d r r2
+    r4 r8 a h16[ a h cis] h[ cis a h]
+    cis[ h cis d] cis[ d h cis] dis[ cis dis e] dis[ e cis dis]
+    e8 e16 e e4. a,8 d4~ %275
+    d cis h2
+    a4 r r2
+    R1*4 %281
+    r4 r8 a h16([ a h cis] h[ cis a h]
+    cis8) h16 a d4. d8 cis4
+    d r r2
+    R1 %285
+    r2 r4 r8 a
+    h16([ a h cis] h[ cis a h] cis8) h16 a d4~
+    d8 d cis4 d e8 e^\critnote
+    d4. d8 cis([ h16 cis] d8[ cis16 h] \noBreak
+    a2) a\fermata \bar "||" %290
+    \time 6/8 \tempoAmen \newSpacingSection R2. \noBreak
+    r4 r8 \mvTr a[\fE^\tuttiE cis a]
+    h[ e, e'] cis[ a h16 cis]
+    d8 a d4( cis)
+    d8 d16[ cis d8] cis8.[ h16 cis d] %295
+    h4. a
+    R2.
+    d8[ fis d] e[ a, cis]
+    h4. ais8[ h16 ais h8]
+    cis4. h8 d[ h] %300
+    cis[ fis, d'] h4.
+    a g
+    fis8[ d'16 cis d8]~ d[ g, c]~
+    c[ h16 a h8] a4.
+    h r4 r8 %305
+    R2.*2
+    a8[ cis a] h[ e, e']
+    cis[ a h16 cis] d8 a \once \tieDashed d~
+    d cis4 d8 d16[ cis d8] %310
+    cis8.[ h16 cis d] h4.~
+    h8[ a16 gis a h] gis8[ cis, cis']
+    ais4 fis8 g( fis4)
+    fis8 h16[ cis d e] fis8[ a, fis]
+    g[ g16 a h cis] d8[ fis d] %315
+    e[ e,16 fis g a] h8[ e h]
+    cis[ a] d4 cis
+    d d cis~
+    cis8 h4. a4~
+    a8 g4. fis16[ e fis8] %320
+    e4. r4 r8
+    a8[ cis a] d4.~
+    d8[ cis16 h cis8] d16[ cis d cis d e]
+    cis8.[ h16 a8]~ a4.~
+    a2. %325
+    a\fermata \bar "|." %326 finis
+  }
+}
+
+QuoniamSopranoLyrics = \lyricmode {
+  Quo -- ni -- am tu so -- lus, so -- lus %255
+  san -- ctus,
+  tu so -- lus, so -- lus Do -- mi --
+  nus,
+  tu so -- lus al -- tis -- si -- mus,
+  tu so -- lus al -- tis -- si -- mus, %260
+  Je -- su Chri --
+  _
+  ste.
+  Cum San -- cto
+  Spi -- ri -- tu %265
+  in glo --
+  ri -- a De -- i Pa --
+  tris, De -- i Pa -- tris, a --
+  men,
+  in glo -- %270
+  ri -- a De -- i Pa --
+  tris,
+  in glo -- _
+  _ _ _ _
+  _ ri -- a De -- i Pa -- %275
+  tris, a --
+  men,
+
+  in glo -- %282
+  ri -- a De -- i Pa --
+  tris,
+  %285
+  in
+  glo -- ri -- a De --
+  i Pa -- tris, De -- i
+  Pa -- tris, a --
+  men. %290
+
+  A --
+  _ _
+  _ men, a --
+  men, a -- _ %295
+  _ men,
+
+  a -- _
+  _ _
+  _ men, a -- %300
+  _ _
+  _ _
+  _
+  _
+  men, %305
+
+  a -- _ %308
+  _ _ men, a --
+  _ men, a -- %310
+  _ _
+  _
+  _ men, a --
+  men, a -- _
+  _ _ %315
+  _ _
+  _ _ _
+  men, a -- _
+  _ _
+  _ _ %320
+  men,
+  a -- _
+  _
+  _
+  %325
+  men. %326 finis
+}
 
 % San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
 % Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.

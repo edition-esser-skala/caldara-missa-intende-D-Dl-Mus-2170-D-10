@@ -111,3 +111,65 @@ QuiTollisOboeI = {
     R1.\fermata \bar "||" %254 finis
   }
 }
+
+QuoniamOboeI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #255
+    R1
+    a''8.\fE a16 a8 a a16 g a h a h a g
+    fis e d8 r4 r2
+    r16 a' a a a a a a a a a a gis gis gis gis
+    a8 a, r4 r8 fis' fis g16 a
+    h8 r r4 r8 cis, cis d16 e %260
+    \tempoJesu fis2 fis
+    g1 \noBreak
+    fis\fermata \bar "||"
+    r4 fis fis fis~ \noBreak
+    fis8 e16 d e4 fis2\fermata %265
+    R1*11 %276
+    r4 r8 e\fE fis16 e fis gis fis gis e fis
+    gis fis e8 e2 d4~
+    d cis2 h4~
+    h a2 gis4 %280
+    a r r2
+    R1*8 \noBreak %289
+    R1\fermata \bar "||" %290
+    \time 6/8 \tempoAmen \newSpacingSection R2. \noBreak
+    r4 r8 a\fE cis a
+    h e, e' cis a h16 cis
+    d8 a d4 cis
+    d8 d16 cis d8 cis8. h16 cis d %295
+    h4. a
+    R2.
+    d8 fis d e a, cis
+    h4. ais8 h16 ais h8
+    cis4. h8 d h %300
+    cis fis, d' h4.
+    a g
+    fis8 d'16 cis d8~ d g, c~
+    c h16 a h8 a4.
+    h r4 r8 %305
+    R2.*2
+    a8 cis a h e, e'
+    cis a h16 cis d8 a \once \tieDashed d~
+    d cis4 d8 d16 cis d8 %310
+    cis8. h16 cis d h4.~
+    h8 a16 gis a h gis8 gis cis
+    ais4 fis8 g fis4
+    fis8 h16 cis d e fis8 a, fis
+    g g16 a h cis d8 fis d %315
+    e e,16 fis g a h8 e h
+    cis a d4 cis
+    d d cis~
+    cis8 h4. a4~
+    a8 g4. fis16 e fis8 %320
+    e4. r4 r8
+    a8 cis a d4.~
+    d8 cis16 h cis8 d16 cis d cis d e
+    cis8. h16 a8~ a4.~
+    a2. %325
+    a\fermata \bar "|." %326 finis
+  }
+}

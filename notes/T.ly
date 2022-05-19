@@ -295,3 +295,149 @@ QuiTollisTenoreLyrics = \lyricmode {
   no --
   bis. %247 finis
 }
+
+QuoniamTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #255
+    \mvTr fis8.\fE^\tutti fis16 fis8 fis e fis e e
+    fis fis r4 r2
+    r8 fis e e fis e fis e16([ d)]
+    e4 r r2
+    r8 e e e16 e fis8. fis16 fis4
+    r8 e e e16 e e8. e16 e4 %260
+    \tempoJesu fis2 fis
+    h,( e) \noBreak
+    a,1\fermata \bar "||"
+    r4 h cis cis \noBreak
+    d h \mvTrr cis2\fermata^\critnote %265
+    R1
+    r4 r8 \mvTr h\pE^\solo cis16([ h cis d] cis[ d h cis]
+    d8) cis16 h fis'4. fis8 eis4
+    fis d8 cis h gis cis4
+    cis r r2 %270
+    r4 r8 d e16([ d e fis] e[ fis d e]
+    fis8) e16 d d4. d8 cis4~
+    cis d4. d8 e4
+    a, r8 a a a16 a h8 h
+    h h r cis a a16 a fis8 d' %275
+    h4 cis8.([ d16)] e2
+    e4 r r2
+    R1*2
+    r4 r8 a, h16([ a h cis] h[ cis a h] %280
+    cis8) h16 a d4. d8 cis4
+    d cis8 a d d e4
+    e a,8 a h h a4
+    a r8 cis d16[ cis d e] d[ e cis d]
+    e[ d e fis] e[ fis d e] a,8 a16 a h4~ %285
+    h cis2 d4~
+    d8 d e4 e a,8 a
+    h h a4 a cis8 cis
+    fis4 e2 d4~ \noBreak
+    d cis d2\fermata \bar "||" %290
+    \time 6/8 \tempoAmen \newSpacingSection R2.*4 %294
+    r4 r8 \mvTr a8[\fE^\tuttiE cis a] %295
+    h[ e, e'] cis[ a h16 cis]
+    d8 a d4( cis)
+    d4. a8[ cis a]
+    h[ e, e']~ e[ d16 cis d e]
+    cis8[ fis, fis'] d4 \once \tieDashed fis8~ %300
+    fis4. d~
+    d h~
+    h g~
+    \once \tieDashed g~ g8[ fis16 e fis8]
+    g8 h[ g] a[ d, d'] %305
+    h[ g h16 cis!] d8 a d~
+    d cis4 d8 d16[ cis d8]
+    cis8.[ h16 cis d] h4.
+    a r4 r8
+    r4 r8 d[ fis d] %310
+    e4. d
+    gis,8[ cis16 h cis8] d cis4~
+    cis8[ fis,] h4 ais16[ gis ais8]
+    h4. r4 fis'8~
+    fis[ e16 d e8] d4 a8 %315
+    h[ e16 d e8]~ \once \tieDashed e4.~
+    e4 d8 e4.
+    fis e^\critnote
+    d cis4 d16[ a]
+    h4. a %320
+    a8[ cis a] d4.~
+    d8[ cis16 h cis8] a4.~
+    a2.~
+    a8[ h16 cis d8]~ d[ cis16 h cis8]
+    d[ a] d4 cis %325
+    d2.\fermata \bar "|." %326 finis
+  }
+}
+
+QuoniamTenoreLyrics = \lyricmode {
+  Quo -- ni -- am tu so -- lus, so -- lus %255
+  san -- ctus,
+  tu so -- lus, so -- lus Do -- mi --
+  nus,
+  tu so -- lus al -- tis -- si -- mus,
+  tu so -- lus al -- tis -- si -- mus, %260
+  Je -- su
+  Chri --
+  ste.
+  Cum San -- cto
+  Spi -- ri -- tu %265
+
+  in glo --
+  ri -- a De -- i Pa --
+  tris, De -- i Pa -- tris, a --
+  men, %270
+  in glo --
+  ri -- a De -- i Pa --
+  _ tris, a --
+  men, in glo -- ri -- a De -- i
+  Pa -- tris, in glo -- ri -- a De -- i %275
+  Pa -- tris, __ a --
+  men,
+
+  in glo -- %280
+  ri -- a De -- i Pa --
+  tris, De -- i Pa -- tris, a --
+  men, De -- i Pa -- tris, a --
+  men, in glo -- _
+  _ _ _ ri -- a De -- %285
+  i Pa --
+  tris, a -- men, De -- i
+  Pa -- tris, a -- men, De -- i
+  Pa -- tris, a --
+  _ men. %290
+
+  A -- %295
+  _ _
+  _ men, a --
+  \xE men, a --
+  _
+  _ \x men, a -- %300
+  _
+  _
+  _
+
+  men, a -- _ %305
+  _ _ men, a --
+  _ \xE men, a --
+  _ _
+  \x men,
+  a -- %310
+  _ _
+  _ _ _
+  _ _
+  men, a --
+  _ men, %315
+  a --
+  _ _
+  men, a --
+  _ _ _
+  _ men, %320
+  a -- _
+  _
+
+  _ _ _ %325
+  men. %326 finis
+}

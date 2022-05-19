@@ -122,3 +122,48 @@ QuiTollisClarino = {
     R1.\fermata \bar "||" %254 finis
   }
 }
+
+QuoniamClarino = {
+  \transpose d c \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #255
+    R1
+    \mvTr a''8.\fE-\markup \remark "Oboe 1" a16 a8 a a16 g a h a h a g
+    fis e d8 r4 r2
+    r8 e a a d, fis fis e16 d
+    e4 r r8 d d d
+    d r r4 r8 a' a a %260
+    \tempoJesu a2 a
+    g2. fis8 e \noBreak
+    fis1\fermata \bar "||"
+    r4 fis fis fis \noBreak
+    h4. h8 fis2\fermata %265
+    R1*12
+    r4 r8 e\fE fis16 e fis gis fis gis e fis
+    gis fis e8 r e fis16 e fis g fis g fis g
+    e d e fis e fis e fis d8 e16 fis e8. e16
+    e4 r r2
+    R1*8 \noBreak %289
+    R1\fermata \bar "||" %290
+    \time 6/8 \tempoAmen \newSpacingSection R2.*18 %308
+    r4 r8 d\fE fis d
+    e a, a' fis d fis16 gis %310
+    a8 e a~ a gis16 a h a
+    gis4 a8 gis8.\trill gis16 gis8
+    fis16 g fis g fis d g8 fis8. e16
+    d8. e16 fis g a8 e a
+    d, g16 a h8 a16 g a4~ %315
+    a8 g16 fis g8~ g16 fis g a h g
+    a8. g16 fis8 h a8. a16
+    fis8 d'4. cis4~
+    cis8 h4. a4~
+    a8 g4. fis16 e fis8 %320
+    e4 r8 d fis d
+    e a, a' fis d fis16 gis?
+    a8 e a16 g fis8 fis16 e fis8
+    g4 fis8 e a, a'16 g
+    fis8. e16 fis g e8 a, a'16 g %325
+    fis2.\fermata \bar "|." %326 finis
+  }
+}

@@ -128,3 +128,63 @@ QuiTollisViolaII = {
     h1 r2\fermata \bar "||" %254 finis
   }
 }
+
+QuoniamViolaII = {
+  \relative c' {
+    \clef tenor
+    \key d \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #255
+    R1
+    d8.\fE d16 d8 d e d e e
+    d d r4 r2
+    r8 e e e d d gis, gis
+    cis4 r r8 d d d
+    h r r4 r8 e e a, %260
+    \tempoJesu d2 d
+    g cis, \noBreak
+    fis1\fermata \bar "||"
+    r4 h,^\critnote cis cis \noBreak
+    d e8 h \mvTrr cis2\fermata^\critnote %265
+    R1*11 %276
+    r4 r8 gis'\fE a a fis4
+    e4. cis8 d4. d8
+    gis,4 cis8 e d4. d8
+    e4 cis d h8 e %280
+    cis4 r r2
+    R1*8 \noBreak %289
+    R1\fermata \bar "||" %290
+    \time 6/8 \tempoAmen \newSpacingSection R2.*4 %294
+    r4 r8 a8\fE cis a %295
+    h e, e' cis a h16 cis
+    d8 a d4 cis
+    d4. a8 cis a
+    h e, e'~ e d16 cis d e
+    cis8 fis, fis' d4 \once \tieDashed fis8~ %300
+    fis4. d~
+    d h~
+    h g~
+    \once \tieDashed g~ g8 fis16 e fis8
+    g8 h g a d, d' %305
+    h g h16 cis! d8 a d~
+    d cis4 d8 d16 cis d8
+    cis8. h16 cis d h4.
+    a r4 r8
+    r4 r8 d fis d %310
+    e4. d
+    gis,8 cis16 h cis8 d cis4~
+    cis8 fis, h4 ais16 gis ais8
+    h4. r4 fis'8~
+    fis e16 d e8 d4 a8 %315
+    h e16 d e8~ \once \tieDashed e4.~
+    e4 d8 e4.
+    fis e^\critnote
+    d cis4 d16 a
+    h4. a %320
+    a8 cis a d4.~
+    d8 cis16 h cis8 a4.~
+    a2.~
+    a8 h16 cis d8~ d cis16 h cis8
+    d a d4 cis %325
+    d2.\fermata \bar "|." %326 finis
+  }
+}
