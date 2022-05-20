@@ -188,3 +188,26 @@ QuoniamViolaII = {
     d2.\fermata \bar "|." %326 finis
   }
 }
+
+SanctusViolaII = {
+  \relative c' {
+    \clef tenor
+    \key d \major \time 4/4 \tempoSanctus
+    a4.\fE a8 h2
+    h r4 d
+    gis,2 cis
+    r4 dis8 dis dis2
+    gis, r4 cis %5
+    h2 cis4 dis
+    h e e4. d8 \noBreak
+    cis1\fermata \bar "||"
+    \tempoPleni cis16 cis cis cis h h h h cis cis cis cis h h h h \noBreak
+    cis cis cis cis h h e e e e e e e e e e %10
+    d8 d r4 d16 d d d d d d d
+    d d d d d d d d d d d d d d d d
+    d4 r r16 g g g g4
+    r16 e e e fis4 r16 fis fis fis e8 e
+    e e d d d d e e %15
+    fis d r e d4 r\fermata \bar "||" %16 finis
+  }
+}

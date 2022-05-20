@@ -167,3 +167,26 @@ QuoniamClarino = {
     fis2.\fermata \bar "|." %326 finis
   }
 }
+
+SanctusClarino = {
+  \transpose d c \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoSanctus
+    \mvTr fis'4.\fE-\critnote fis8 fis16 g fis g fis g fis e
+    d e d e fis8 fis, r4 r8 fis'
+    gis4 r8 gis fis2
+    r4 fis8. fis16 fis16 gis a gis fis gis e fis
+    gis2 r4 a8 a %5
+    fis4 gis8.(\trill fis32 gis) a8 a, fis'4
+    gis8 e a4. a8 gis4 \noBreak
+    a16 e e e e a,16 a a a2\fermata \bar "||"
+    \tempoPleni r8 e' e4 r8 e e4 \noBreak
+    r8 e e4 r8 e e4 %10
+    r2 r8 d d4
+    r8 d d4 r8 d d4
+    r8 d d4 r g8 fis
+    e fis16 g a8 g fis g16 a h8 a
+    a a a a h a a a %15
+    fis16 fis fis fis e e e e fis4 r\fermata \bar "||" %16 finis
+  }
+}

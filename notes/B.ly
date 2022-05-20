@@ -436,3 +436,45 @@ QuoniamBassoLyrics = \lyricmode {
 
   men. %326 finis
 }
+
+SanctusBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr d'4.\fE^\tuttiE d8 h2
+    h r4 h8 h
+    eis,4 eis8 eis fis4 fis
+    r dis8 dis dis4. dis8
+    e!2 r4 a8 a %5
+    a a gis4 fis4. fis8
+    e2. e4 \noBreak
+    a,1\fermata \bar "||"
+    \tempoPleni a'8 a16 a gis8 gis16 gis a4 e \noBreak
+    a8 a16 a gis8 gis16 gis a8 a, r4 %10
+    r2 g'8 g16 g fis8 fis16 fis
+    g4 d g8 g16 g fis8 fis16 fis
+    g8 g, r4 g'8([ fis)] e[ fis16 g]
+    a8[ g] fis[ g16 a] h8[ a] g[ fis16 g]
+    a8 a d([ d,)] g([ d')] a4 %15
+    d, r r2\fermata \bar "||" %16 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  San -- ctus, san --
+  ctus, san -- ctus
+  Do -- mi -- nus De -- us,
+  De -- us Sa -- ba --
+  oth, san -- ctus %5
+  Do -- mi -- nus De -- us
+  Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li et ter -- ra
+  glo -- ri -- a, glo -- ri -- a tu -- a, %10
+  ple -- ni sunt coe -- li et
+  ter -- ra glo -- ri -- a, glo -- ri -- a
+  tu -- a. O -- san --
+  _ _ _ _
+  _ na in __ ex -- cel -- %15
+  sis. %16 finis
+}

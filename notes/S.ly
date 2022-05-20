@@ -448,10 +448,48 @@ QuoniamSopranoLyrics = \lyricmode {
   men. %326 finis
 }
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
-%
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr a'4.\fE^\tuttiE a8 h2
+    h r4 h8 h
+    h4 h8 h ais4 ais
+    r a8 a a4. a8
+    gis2 r4 cis8 cis %5
+    dis dis16 dis e2 dis4
+    e2. e4 \noBreak
+    e1\fermata \bar "||"
+    \tempoPleni e8 e16 e e8 e16 e e4 e \noBreak
+    e8 e16 e e4 e r %10
+    r d8 d16 d d8 d16 d d4
+    d d4. d16 d d4
+    d d8([ cis)] h[ cis16 d] e8[ d]
+    cis[ d16 e] fis8[ e] d[ cis16 d] e[ fis d e]
+    cis8 cis d4. d8 d([ cis)] %15
+    d4 r r2\fermata \bar "||" %16 finis
+  }
+}
+
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus, san --
+  ctus, san -- ctus
+  Do -- mi -- nus De -- us,
+  De -- us Sa -- ba --
+  oth, san -- ctus %5
+  Do -- mi -- nus De -- us
+  Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li et ter -- ra
+  glo -- ri -- a tu -- a, %10
+  ple -- ni sunt coe -- li et ter --
+  ra glo -- ri -- a tu --
+  a. O -- san -- _
+  _ _ _ _
+  _ na in ex -- cel -- %15
+  sis. %16 finis
+}
+
 % Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
 % O -- san -- na in ex -- cel -- sis.
 %

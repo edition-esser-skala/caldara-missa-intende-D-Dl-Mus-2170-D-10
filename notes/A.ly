@@ -467,3 +467,45 @@ QuoniamAltoLyrics = \lyricmode {
   _ _ %325
   men. %326 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr fis4.\fE^\tuttiE fis8 fis2
+    fis r4 fis8 fis
+    gis4 gis8 gis fis4 fis
+    r fis8 fis fis4. fis8
+    e2 r4 fis8 fis %5
+    fis8. fis16 gis4 a4. a8
+    gis4( a2) gis4 \noBreak
+    a1\fermata \bar "||"
+    \tempoPleni a8 a16 a h8 h16 h a4 gis \noBreak
+    a8 a16 a h8 h16 h h8 a r4 %10
+    r2 h8 h16 h a8 a16 a
+    h4 a h8 h16 h a4
+    g r r g8([ fis)]
+    e[ fis16 g] a8[ g] fis[ g16 a] h[ cis h cis]
+    a8 a a a h([ a] a4) %15
+    a r r2\fermata \bar "||" %16 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San -- ctus, san --
+  ctus, san -- ctus
+  Do -- mi -- nus De -- us,
+  De -- us Sa -- ba --
+  oth, san -- ctus %5
+  Do -- mi -- nus De -- us
+  Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li et ter -- ra
+  glo -- ri -- a, glo -- ri -- a tu -- a, %10
+  ple -- ni sunt coe -- li et
+  ter -- ra glo -- ri -- a tu --
+  a. O --
+  san -- _ _ _
+  _ na in ex -- cel -- %15
+  sis. %16 finis
+}

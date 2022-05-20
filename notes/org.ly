@@ -724,3 +724,45 @@ QuoniamBassFigures = \figuremode {
   <6 4>4. <5 \t>8 <\t 3>4 %325
   r2. %326 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoSanctus
+    \mvTr d'2\fE-\tuttiE h
+    h, r4 h'8 h
+    eis,2 fis
+    r4 dis dis2
+    e! r4 a~ %5
+    a gis fis2
+    e2. e4 \noBreak
+    a,1\fermata \bar "||"
+    \tempoPleni a'8 a gis gis a a e e \noBreak
+    a a gis gis a a, a' g? %10
+    fis d r4 g8 g fis fis
+    g g d d g g fis fis
+    g g, r4 g'8 fis e fis16 g
+    a8 g fis g16 a h8 a g fis16 g
+    a8 a, d d' g, d a' a, %15
+    d fis16-\solo g a8 a, d4 r\fermata \bar "||" %16 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r2 <5>
+  r1
+  <7 [_+]>2 <_+>
+  r4 <6 5!> <\t \t>2
+  <_+>2. <[6]>4 %5
+  <4+> <6> <7> <6\\>
+  <5 _+> <6 4> <4> <_+>
+  r1
+  r4 <[6]>2 <_+>4
+  r \bo <[6]> <9>8 \bc <[8]>4. %10
+  <6>2. q4
+  r2. <[6]>4
+  r1
+  r2. <[6]>4
+  r2. <4>8 <3> %15
+  r4 \bo <[4]>8 \bc <[3]> r2 %16 finis
+}

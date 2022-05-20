@@ -441,3 +441,45 @@ QuoniamTenoreLyrics = \lyricmode {
   _ _ _ %325
   men. %326 finis
 }
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr d4.\fE^\tuttiE d8 d2
+    d r4 d8 d
+    d4 d8 d cis4 cis
+    r h8 h h4. h8
+    h2 r4 a8 a %55
+    h4 h8 h cis4 h8([ a)]
+    h4( cis h4.) h8 \noBreak
+    cis1\fermata \bar "||"
+    \tempoPleni cis8 cis16 cis h8 h16 h cis4 h \noBreak
+    cis8 cis16 cis h8 h16 h cis8 cis r4 %10
+    r2 d8 d16 d fis8 fis16 fis
+    d4 fis d8 d16 d d4
+    h r h8([ a)] g[ a16 h]
+    cis8[ h] a[ h16 cis] d8[ cis] h[ g'16 fis]
+    e8 e fis fis g([ fis] e4) %15
+    fis r r2\fermata \bar "||" %16 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San -- ctus, san --
+  ctus, san -- ctus
+  Do -- mi -- nus De -- us,
+  De -- us Sa -- ba --
+  oth, san -- ctus %5
+  Do -- mi -- nus De -- us
+  Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li et ter -- ra
+  glo -- ri -- a, glo -- ri -- a tu -- a, %10
+  ple -- ni sunt coe -- li et
+  ter -- ra glo -- ri -- a tu --
+  a. O -- san --
+  _ _ _ _
+  _ na in ex -- cel -- %15
+  sis. %16 finis
+}

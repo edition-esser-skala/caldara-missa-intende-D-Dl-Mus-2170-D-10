@@ -234,3 +234,26 @@ QuoniamViolinoII = {
     a\fermata \bar "|." %326 finis
   }
 }
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoSanctus
+    \mvTr d'4.\fE-\tutti d8 d2
+    d r4 h
+    h2 ais
+    r4 a8 a a2
+    gis r4 a %5
+    h2 a
+    h4 a h4. h8 \noBreak
+    cis1\fermata \bar "||"
+    \tempoPleni cis16 cis cis cis e e e e cis cis cis cis e e e e \noBreak
+    cis cis cis cis e e e e cis cis cis cis e e e e %10
+    fis8 fis r4 g16 g g g a a a a
+    g g g g a a a a g g g g a a a a
+    g4 r r16 d d d e e d d
+    cis cis cis cis fis fis e e d d cis d e fis d e
+    cis cis cis cis d d d d d d d d d d cis cis %15
+    d fis fis fis e e e e fis4 r\fermata \bar "||" %16 finis
+  }
+}

@@ -192,3 +192,26 @@ QuoniamViolaI = {
     fis2.\fermata \bar "|." %326 finis
   }
 }
+
+SanctusViolaI = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 4/4 \tempoSanctus
+    fis4.\fE fis8 fis2
+    fis r4 fis
+    h2 fis
+    r4 fis8 fis fis2
+    h, r4 fis'~ %5
+    fis gis a fis
+    gis a2 gis4 \noBreak
+    a1\fermata \bar "||"
+    \tempoPleni e16 e e e e e e e e e e e e e e e \noBreak
+    e e e e e e e e a a a a a a a a %10
+    a8 a r4 h16 h h h a a a a
+    h h h h a a a a h h h h a a a a
+    h4 r r16 h h h h4
+    r16 a a a a4 r16 h h h h8 e,
+    a a a a h a a8. a16 %15
+    a8 a a8. a16 a4 r\fermata \bar "||" %16 finis
+  }
+}
