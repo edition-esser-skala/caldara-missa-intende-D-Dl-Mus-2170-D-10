@@ -324,3 +324,41 @@ OsannaViolinoII = {
     d4 r r2\fermata \bar "|." %69 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoAgnus
+    \mvTr a'8\fE-\tutti a a a a a d d
+    fis, fis g g a a a a
+    a a g g g e g g
+    g g fis fis e a a a
+    g g g g fis fis fis fis %5
+    fis2\fermata r
+    e'8 e e e e4 d
+    cis d cis2 \noBreak
+    h1\fermata \bar "||"
+    \key g \major \time 6/2 \tempoAgnusB \newSpacingSection
+      \set Staff.timeSignatureFraction = 3/2
+      R\breve. \noBreak %10
+    r1 r2 r \mvTr d\pE-\vv d
+    e d r4 h c2 c r4 fis
+    g2 r g r4 g fis2. g4
+    g2 r r r1 r2
+    R\breve. %15
+    r2 r a,^\critnote g g r
+    R\breve.
+    r1 r2 a r a4 g
+    fis2 gis r4 h a2 a r4 a
+    g2 g r4 g fis!2 fis r4 h %20
+    h2 r ais d1.~ \noBreak
+    d4 e cis2. h4 h1 r2\fermata \bar "||"
+    \key d \major \time 4/4 \tempoAgnusC \newSpacingSection
+      \unset Staff.timeSignatureFraction
+    r4 \mvTr fis'8\fE-\markup \remark "Oboe 2" e fis4 e8 e
+    e d r g a a g8. g16
+    fis4 r8 d e4. d8 %25
+    d2. cis8 h
+    cis2 r\fermata \bar "||" %27 finis
+  }
+}

@@ -548,3 +548,64 @@ OsannaAltoLyrics = \lyricmode {
   o -- san -- na in ex -- %65
   cel -- sis. \x %66 finis
 }
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoAgnus
+    r4 \mvTr fis2\fE^\tuttiE fis4
+    fis g8 g a4 a8 a
+    a4( g4. e8) g4~
+    g fis e8 a a4(
+    g4.) g8 fis2 %5
+    fis\fermata r
+    h8 h ais gis ais4 h
+    ais8 cis4 h8 h4 ais \noBreak
+    h1\fermata \bar "||"
+    \key g \major \time 6/2 \tempoAgnusB \newSpacingSection
+      \set Staff.timeSignatureFraction = 3/2
+      r2 \mvTr g\pE^\solo g g g r4 g \noBreak %10
+    g2. a4 fis2 g d r
+    R\breve.*2
+    r2 r g g g r4 g
+    g2. a4 fis2 g d( h') %15
+    a4( g) a2 r r1 r2
+    r r e4 e f1 fis2~
+    fis e1 e r2
+    R\breve.*3 \noBreak %21
+    R\breve.\fermata \bar "||"
+    \key d \major \time 4/4 \tempoAgnusC \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      r4 \mvTr a8\fE^\tuttiE a a4 a8 a \noBreak
+    fis fis r g a a g4
+    fis r8 a a e a4~ %25
+    a gis a2~
+    a r\fermata \bar "||" %27 finis
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui tol -- lis pec --
+  ca -- ta __
+  mun -- di, pec --
+  ca -- ta mun -- %5
+  di:
+  Mi -- se -- re -- re no -- _
+  _ _ _ _ _
+  bis.
+  A -- gnus De -- i, qui %10
+  tol -- lis pec -- ca -- ta,
+
+  qui tol -- lis pec -- %14
+  ca -- _ _ _ ta __ %15
+  mun -- di:
+  Mi -- se -- re -- re __
+  no -- bis.
+
+  A -- gnus De -- i, qui %23
+  tol -- lis pec -- ca -- ta mun --
+  di, pec -- ca -- ta mun -- %25
+  _ di: __
+  %27 finis
+}

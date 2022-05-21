@@ -529,8 +529,65 @@ OsannaSopranoLyrics = \lyricmode {
   cel -- sis. \x %66 finis
 }
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoAgnus
+    r4 \mvTr a'2\fE^\tuttiE a4
+    h h8 g d'4 c8 c
+    h2. a4
+    a2 a4 cis!
+    cis4. cis8 d2 %5
+    cis\fermata ais8 h cis d
+    e2. d4
+    cis d cis2 \noBreak
+    h1\fermata \bar "||"
+    \key g \major \time 6/2 \tempoAgnusB \newSpacingSection
+      \set Staff.timeSignatureFraction = 3/2
+      r2 \mvTr d\pE^\solo d e d r4 d \noBreak %10
+    e2. d4 c2 d4( c) h2 r
+    R\breve.
+    r1 r2 r a d~
+    d2. c4 h2 c h r4 h
+    c2. d4 c2 h4 a g2 e'4 d %15
+    cis2 d r r r e4 c
+    a1. a
+    a1( gis2) a1 r2
+    R\breve.*3 \noBreak %21
+    R\breve.\fermata \bar "||"
+    \key d \major \time 4/4 \tempoAgnusC \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      r4 \mvTr fis'8\fE^\tuttiE e fis4 e8 e \noBreak
+    e d r d d c h4
+    a r8 d e4. d8 %25
+    d2.( cis8[ h])
+    cis2 r\fermata \bar "||" %27 finis
+  }
+}
+
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui tol -- lis pec --
+  ca -- ta
+  mun -- di, pec --
+  ca -- ta mun -- %5
+  di: Mi -- se -- re -- re
+  no -- _
+  _ _ _
+  bis.
+  A -- gnus De -- i, qui %10
+  tol -- lis pec -- ca -- ta,
+
+  qui tol --
+  lis pec -- ca -- ta, pec --
+  ca -- _ _ _ _ _ _ ta %15
+  mun -- di: Mi -- se --
+  re -- re
+  no -- bis.
+
+  A -- gnus De -- i, qui %23
+  tol -- lis pec -- ca -- ta mun --
+  di, pec -- ca -- ta %25
+  mun --
+  di: %27 finis
+}

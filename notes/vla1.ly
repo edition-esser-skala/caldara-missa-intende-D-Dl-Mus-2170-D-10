@@ -239,3 +239,41 @@ OsannaViolaI = {
     a4 r r2\fermata \bar "|." %69 finis
   }
 }
+
+AgnusViolaI = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 4/4 \tempoAgnus
+    fis8\fE fis fis fis fis fis fis fis
+    fis fis d d fis fis fis fis
+    d d g g g g e e
+    a a a a a a e e
+    e e cis cis fis fis fis fis %5
+    fis2\fermata r
+    h8 h h h fis4 fis
+    fis1 \noBreak
+    fis\fermata \bar "||"
+    \key g \major \time 6/2 \tempoAgnusB \newSpacingSection
+      \set Staff.timeSignatureFraction = 3/2
+      R\breve. \noBreak %10
+    r1 r2 r g\pE g
+    g g r4 g g2 a r4 a
+    d,2 r g r4 e d2. d4
+    d2 r r r1 r2
+    R\breve. %15
+    r2 r d d c r
+    R\breve.
+    r1 r2 e r a,
+    h h r4 e e2 fis r4 d
+    d2 e r4 e cis2 dis r4 fis %20
+    g2 r fis fis1 g2 \noBreak
+    h fis2. fis4 fis1 r2\fermata \bar "||"
+    \key d \major \time 4/4 \tempoAgnusC \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      r4 d8\fE e d4 cis8 cis \noBreak
+    h h r h d d d4
+    d r8 d a cis fis, fis'~ %25
+    fis e d4 e2~
+    e r\fermata \bar "||" %27 finis
+  }
+}

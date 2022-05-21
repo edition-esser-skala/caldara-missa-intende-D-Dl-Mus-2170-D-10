@@ -250,3 +250,30 @@ OsannaOboeII = {
     d4 r r2\fermata \bar "|." %69 finis
   }
 }
+
+AgnusOboeII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoAgnus
+    a'8\fE a a a a a d d
+    fis, fis g g a a a a
+    a a g g g e g g
+    g g fis fis e a a a
+    g g g g fis fis fis fis %5
+    fis2\fermata r
+    e'8 e e e e4 d
+    cis d cis2 \noBreak
+    h1\fermata \bar "||"
+    \key g \major \time 6/2 \tempoAgnusB \newSpacingSection
+      \set Staff.timeSignatureFraction = 3/2
+      R\breve.*12 \noBreak %21
+    R\breve.\fermata \bar "||"
+    \key d \major \time 4/4 \tempoAgnusC \newSpacingSection
+      \unset Staff.timeSignatureFraction
+    r4 fis'8\fE e fis4 e8 e
+    e d r g a a g8. g16
+    fis4 r8 d e4. d8 %25
+    d2. cis8 h
+    cis2 r\fermata \bar "||" %27 finis
+  }
+}

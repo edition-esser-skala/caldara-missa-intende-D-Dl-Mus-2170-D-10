@@ -586,3 +586,64 @@ OsannaTenoreLyrics = \lyricmode {
   in ex -- cel -- sis, in ex -- %65
   cel -- sis. \x %66 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoAgnus
+    r4 \mvTr d2\fE^\tuttiE d4
+    d d8 d d2
+    d4 d e4. e8
+    a,4( d) cis e
+    e4. e8 d[ cis] h4~ %5
+    h ais\fermata r2
+    e'8 h cis cis cis4 d8[ e]
+    fis[ e d e] fis2 \noBreak
+    fis1\fermata \bar "||"
+    \key g \major \time 6/2 \tempoAgnusB \newSpacingSection
+      \set Staff.timeSignatureFraction = 3/2
+      r2 \mvTr h,\pE^\solo h c h r4 h \noBreak %10
+    c2. d4 c2 h4( a) g2 r
+    R\breve.*2
+    r2 r d' e d r4 d
+    e2. d4 c2 d4( c h2) h %15
+    e d r r1 r2
+    r r c4 c d1 c2~
+    c h1 c1 r2
+    R\breve.*3 \noBreak %21
+    R\breve.\fermata \bar "||"
+    \key d \major \time 4/4 \tempoAgnusC \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      r4 \mvTr d8\fE^\tuttiE e d4 cis8 cis \noBreak
+    h h r h d d d4
+    d r8 d a[ cis fis, fis']~ %25
+    fis e d4 e2~
+    e r\fermata \bar "||" %27 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui tol --
+  lis pec -- ca -- ta
+  mun -- di, pec --
+  ca -- ta mun -- _ %5
+  di:
+  Mi -- se -- re -- re no -- _
+  _ _
+  bis.
+  A -- gnus De -- i, qui %10
+  tol -- lis pec -- ca -- ta,
+
+  qui tol -- lis, qui %14
+  tol -- lis pec -- ca -- ta %15
+  mun -- di:
+  Mi -- se -- re -- re __
+  no -- bis.
+
+  A -- gnus De -- i, qui %23
+  tol -- lis pec -- ca -- ta mun --
+  di, pec -- ca -- %25
+  ta mun -- di: __
+  %27 finis
+}

@@ -381,3 +381,41 @@ OsannaViolinoI = {
     fis4 r r2\fermata \bar "|." %69 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoAgnus
+    \mvTr d'8\fE-\tutti d d d d d d d
+    d d d d d d c c
+    h h h h h h a a
+    a a a a a a cis! cis
+    cis cis cis cis d d d d %5
+    cis2\fermata r
+    h'8 h ais gis ais4 h
+    ais8 cis4 h8 h4 ais \noBreak
+    h1\fermata \bar "||"
+    \key g \major \time 6/2 \tempoAgnusB \newSpacingSection
+      \set Staff.timeSignatureFraction = 3/2
+      R\breve. \noBreak %10
+    r1 r2 r \mvTr h\pE-\vv h
+    c h r4 d, e2 fis r4 c'
+    c2 r h r4 a a2. g4
+    g2 r r r1 r2
+    R\breve. %15
+    r2 r d4 c h2 c r
+    R\breve.
+    r1 r2 c r f4 e
+    dis2 e r4 e cis2 d r4 d
+    h2 c r4 c ais2 h r4 d! %20
+    cis2 r cis~ cis h4 ais h2~ \noBreak
+    h4 cis ais2. h4 h1 r2\fermata \bar "||"
+    \key d \major \time 4/4 \tempoAgnusC \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      r4 a'8\fE a a16 d, fis g a h a g \noBreak
+    fis8 fis r d' d16 a c8 h8. h16
+    a4 r16 a a a a a e e a a a a %25
+    a a a a gis gis gis gis a8 e cis e
+    a, cis16 e a4 r2\fermata \bar "||" %27 finis
+  }
+}

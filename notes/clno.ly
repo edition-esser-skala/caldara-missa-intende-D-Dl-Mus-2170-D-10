@@ -214,3 +214,30 @@ OsannaClarino = {
     fis4 r r2\fermata \bar "|." %69 finis
   }
 }
+
+AgnusClarino = {
+  \transpose d c \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoAgnus
+    a''4.\fE a8 a4. a8
+    h4. h8 a d, a'4~
+    a g4. e8 g4~
+    g fis e8 a a4
+    g4. g8 fis4. fis8 %5
+    fis2\fermata r
+    e4 r fis r
+    r fis fis4. fis8 \noBreak
+    fis1\fermata \bar "||"
+    \time 6/2 \tempoAgnusB \newSpacingSection
+      \set Staff.timeSignatureFraction = 3/2
+      R\breve.*12 \noBreak %21
+    R\breve.\fermata \bar "||"
+    \time 4/4 \tempoAgnusC \newSpacingSection
+      \unset Staff.timeSignatureFraction
+    r4 \mvTr a8\fE-\markup \remark "Oboe 1" a a16 d, fis g a h a g
+    fis8 d r g a a g8. g16
+    fis4 r8 a a e \once \tieDashed a4~ %25
+    a gis a r8 a
+    a2 r\fermata \bar "||" %27 finis
+  }
+}

@@ -579,3 +579,64 @@ OsannaBassoLyrics = \lyricmode {
   san -- \x na in ex -- %65
   cel -- sis. %66 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoAgnus
+    r4 \mvTr d'2\fE^\tuttiE d4
+    h2 fis4 fis
+    g g8 g cis,4 cis
+    d2 a4 a'
+    ais4. ais8 h2
+    fis\fermata r
+    g8 g fis e fis2~
+    fis4 h fis2 \noBreak
+    h,1\fermata \bar "||"
+    \key g \major \time 6/2 \tempoAgnusB \newSpacingSection
+      \set Staff.timeSignatureFraction = 3/2
+      r2 \mvTr g'\pE^\solo g c g r4 g \noBreak
+    a2. a4 a2 g g, r
+    R\breve.*2
+    r2 r g' c g r4 h
+    a1 a2 g1.~
+    g2 fis r r1 r2
+    r r a4 f d1 dis2~
+    dis e1 a, r2
+    R\breve.*3 \noBreak %21
+    R\breve.\fermata \bar "||"
+    \key d \major \time 4/4 \tempoAgnusC \newSpacingSection
+      \unset Staff.timeSignatureFraction
+    r4 \mvTr d'8\fE^\tuttiE cis d4 a8 a \noBreak
+    h h, r h' fis fis g4
+    d r8 d cis4 d
+    h2 a~
+    a r\fermata \bar "||"
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di, pec --
+  ca -- ta mun -- %5
+  di:
+  Mi -- se -- re -- re no --
+  _ _
+  bis.
+  A -- gnus De -- i, qui %10
+  tol -- lis pec -- ca -- ta,
+
+  qui tol -- lis pec -- %14
+  ca -- ta mun -- %15
+  di:
+  Mi -- se -- re -- re __
+  no -- bis.
+
+  A -- gnus De -- i, qui %23
+  tol -- lis pec -- ca -- ta mun --
+  di, pec -- ca -- ta %25
+  mun -- di: __
+  %27 finis
+}

@@ -894,3 +894,71 @@ OsannaBassFigures = \figuremode {
   r8 <6> <6 5>2 \bc <[6 \l]>4
   r1 %69 finis
 }
+
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoAgnus
+    \mvTr d8\fE-\tutti d d d d d d d
+    h' h h h fis fis fis fis
+    g g g g cis, cis cis cis
+    d d d d a a' a a
+    ais ais ais ais h h h h %5
+    fis2\fermata r
+    g8 g fis e fis fis fis fis
+    fis fis h h fis2 \noBreak
+    h,1 \bar "||"
+    \key g \major \time 6/2 \tempoAgnusB \newSpacingSection
+      \set Staff.timeSignatureFraction = 3/2
+      r2 \mvTr g'\pE-\solo g \noBreak c g r4 h %10
+    a2. a4 a2 g g, g
+    c g r4 g c2 a r4 a
+    g2 r g r4 c d2 d,
+    g1 g'2 c g r4 h
+    a1. g~ %15
+    g2 fis fis f e c
+    f1 a4 f d1 dis2~
+    dis e e, a a'1
+    a2 gis r4 g g2 fis r4 f
+    f2 e r4 e e2 dis r4 h %20
+    e2 r fis h h, g' \noBreak
+    e fis fis, h1 r2\fermata \bar "||"
+    \key d \major \time 4/4 \tempoAgnusC \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      r4 \mvTr d'8\fE-\tuttiE cis d4 a8 a \noBreak
+    h h, r h' fis fis g4
+    d r8 d cis4 d %25
+    h2 a~
+    a r\fermata \bar "||" %27 finis
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  r1
+  r4 \bo <[6]> \bc q <5!>
+  <9> <8> \bo <7 [5]> \bc <6 [\t]>
+  <4> <3>2.
+  <7>2 <5> %5
+  <4>4 <_+>2.
+  <6>4 <7 _+>8 <\t _+> <7 _+>4 <6 4>
+  <_+> \bo <[9]>8 \bc <[8]> <4>4 <_+>
+  r1
+  r1. r1 r4 <6> %10
+  <7>1 <6>2 r1.
+  r r2 <6>2. <\t>4
+  \bo <[4]>1 \bc <[3]>2. <6 [5]>4 r1
+  r1. r1 r4 <6>
+  <7>1 <6>2 <5>1 <6>4 <[5]> %15
+  <4 [2+]>2 <6>1 <4 2>2 <6>1
+  r1. <_!>1 <7 [_+]>2
+  r <4> <_+> r1 \bo <[8 6!]>4 \bc <[7 5]>
+  <[6+] 4+>2 <6>2. <\t>4 <4+ 2>2 <6!>2. <\t>4
+  <4 2>2 <6!>2. <\t>4 <[6+] 4+ 2+>2 <6>2. <_!>4 %20
+  <6\\ 5>1 <[5+] _+>2 <9+> <[8]> <3>
+  <7> \bo <[7] 5+ _+>1 \bc <[_+]>1.
+  r4. <[6]>8 r2
+  <4>8 <3>4 <[6]>8 <6> <5!>4.
+  r2 <6>4 \bo <[9]>8 \bc <[8]> %25
+  <7>4 <6\\> <5 4> \bassFigureExtendersOn <5 3>8 <5 2>
+  <5 3>1 \bassFigureExtendersOff %27 finis
+}
