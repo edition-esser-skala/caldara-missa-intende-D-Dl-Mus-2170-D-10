@@ -4,7 +4,7 @@ GloriaViolinoII = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \tempoGloria
-    \mvTr d'16\f-\vvE e d e d e d fis e fis e fis e fis e g
+    \mvTr d'16\fE-\vvE e d e d e d fis e fis e fis e fis e g
     fis a,-\tutti a a a4 r16 h h h h4
     r16 a a a h4 r16 a a a a4
     r16 a a a a4 r16 fis' fis fis fis4

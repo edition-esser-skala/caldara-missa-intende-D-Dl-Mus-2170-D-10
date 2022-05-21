@@ -3,7 +3,7 @@ composer:
   first: Antonio
 title: Missa Intende in adiutorium meum
 genre: mass
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, clno, 2 vl, 2 vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, clno (D), 2 vl, 2 vla, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -14,6 +14,7 @@ sources:
     url: https://digital.slub-dresden.de/id425837203
     license: public domain
     principal: true
+    notes: \textit{Sanctus} and \textit{Agnus Dei} are autograph manuscripts by Jan Dismas Zelenka
 imslp:
 parts:
-  clno: Clarino
+  clno: Clarino in D
