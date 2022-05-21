@@ -65,24 +65,24 @@ DomineAgnusOboeII = {
     r8 a, cis a cis a d2.~
     d r8 cis d cis d cis
     d cis h2 a4 r r %145
-    r8 e a e cis e a4 r r
+    r8 e a e a e a4 r r
     r2 r4 r8 a cis a cis a
     e'4 r r r8 a, cis a cis a
     d1.~
     d2. r8 cis d cis d cis %150
     d cis h2 a4 r r
-    r8 e a e cis e a4 r r
+    r8 e a e a e a4 r r
     R1.*9 %161
     r8 h\f dis h dis h e2.~
     e4 e4. dis8 e4 r r
     R1.*5 %168
-    r8 e,\f a e cis e a4 r r
+    r8 e,\f a e a e a4 r r
     R1.*3 %172
     r2 r4 r8 a cis a cis a
     e'4 r r r8 a, cis a cis a
     d1. %175
     r8 cis d cis d cis d cis h2
-    a4 r r r8 e a e cis e
+    a4 r r r8 e a e a e
     a4 r r r2 r4\fermata \bar "||" %178 finis
   }
 }
@@ -206,24 +206,47 @@ BenedictusOboeII = {
     r8 a, cis a cis a d2.~
     d r8 cis d cis d cis
     d cis h2 a4 r r %20
-    r8 e a e cis e a4 r r
+    r8 e a e a e a4 r r
     r2 r4 r8 a cis a cis a
     e'4 r r r8 a, cis a cis a
     d1.~
     d2. r8 cis d cis d cis %25
     d cis h2 a4 r r
-    r8 e a e cis e a4 r r
+    r8 e a e a e a4 r r
     R1.*9 %36
     r8 h\f dis h dis h e2.~
     e4 e4. dis8 e4 r r
     R1.*5 %43
-    r8 e,\f a e cis e a4 r r
+    r8 e,\f a e a e a4 r r
     R1.*3 %47
     r2 r4 r8 a cis a cis a
     e'4 r r r8 a, cis a cis a
     d1. %50
     r8 cis d cis d cis d cis h2
-    a4 r r r8 e a e cis e
+    a4 r r r8 e a e a e
     a4 r r r2 r4\fermata \bar "||" %53 finis
+  }
+}
+
+OsannaOboeII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoOsanna
+      \set Score.currentBarNumber = #54
+    r8 fis'\fE d4 fis r8 fis
+    e e e e a, fis' e8. e16 %55
+    e e e e e e e e fis fis fis fis fis fis fis fis
+    gis gis gis gis gis gis gis gis a a a a a a a a
+    a a a a h h h h h h h h g g g g
+    e e d d d d cis cis d4 r
+    R1*2 %61
+    r16 h h h h h h h c c c c c c c c
+    a a a a h h h h h h h h c c c c
+    d8 a d4 r8 fis d d16 d
+    g a fis g e fis d e cis!8 d16 e d8 d %65
+    d4 cis d16 d d d e e cis cis
+    d fis fis fis g g e e fis d,\pE d d e e e e
+    d8 d\fE d e fis16 d' d d e e cis cis
+    d4 r r2\fermata \bar "|." %69 finis
   }
 }

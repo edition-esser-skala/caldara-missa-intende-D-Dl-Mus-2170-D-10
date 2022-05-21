@@ -190,3 +190,27 @@ SanctusClarino = {
     fis16 fis fis fis e e e e fis4 r\fermata \bar "||" %16 finis
   }
 }
+
+OsannaClarino = {
+  \transpose d c \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoOsanna
+      \set Score.currentBarNumber = #54
+    r2 r8 a''\fE a4
+    gis r8 a fis^\critnote a a gis %55
+    a4 r r8 a fis fis
+    h16cis a h gis a fis gis e8 e r4
+    r8 fis d d g16 a fis g e4
+    e8 fis g fis16 e fis g a g fis g e fis
+    d1 %60
+    e8 fis g4. fis16 e fis4
+    g r8 g g g a16 h g a
+    fis g e fis d8 d r2
+    r8 a' fis fis d d g4
+    r8 g g fis16 g a g fis e d8 a' %65
+    h h a8. g16 fis4 r8 a,
+    fis d r a' fis d r a'\pE
+    fis d r a'\fE fis d' d a
+    fis4 r r2\fermata \bar "|." %69 finis
+  }
+}

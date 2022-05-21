@@ -547,3 +547,42 @@ BenedictusTenoreLyrics = \lyricmode {
   _ _
   _ mi -- ni. \x %48 finis
 }
+
+OsannaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoOsanna
+      \set Score.currentBarNumber = #54
+    r8 \mvTr a\fE^\tuttiE h4 a r8 d
+    h e e e fis4( h,8[ e)] %55
+    e e cis cis16 cis fis([ g e fis] d[ e cis d]
+    h8) h r4 r8 cis a a16 a
+    d([ e cis d] h4.) h8 h h
+    a4( h8[ g]) a4 r
+    h4. a8 h[ c] d4 %60
+    g,4. a16[ h] a2
+    h4 r r8 c a a16 a
+    d([ e c d] h[ c a h] g8) g r4
+    r r8 d' h h16 h h8 h
+    h h e4. e8 a, a %65
+    h4( a) a r
+    R1*2
+    R1\fermata \bar "|." %69 finis
+  }
+}
+
+OsannaTenoreLyrics = \lyricmode {
+  \xE O -- san -- na, o -- %54
+  san -- na in ex -- cel -- %55
+  sis, o -- san -- na o -- san --
+  na, o -- san -- na, o --
+  san -- na in ex --
+  cel -- sis,
+  in ex -- cel -- _ %60
+  _ _ _
+  sis, o -- san -- na, o --
+  san -- na,
+  o -- san -- na, o -- san -- na
+  in ex -- cel -- sis, in ex -- %65
+  cel -- sis. \x %66 finis
+}

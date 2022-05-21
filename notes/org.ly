@@ -851,3 +851,46 @@ BenedictusBassFigures = \figuremode {
   r1.
   r %53 finis
 }
+
+OsannaOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoOsanna
+      \set Score.currentBarNumber = #54
+    r8 \mvTr d\fE-\tutti g4 d r8 d
+    e e a g fis d e e, %55
+    a4 r8 a' fis fis h16 cis a h
+    gis a fis gis e8 d cis h a a'
+    fis fis h a g g, g'4~
+    g8 fis e4 d r
+    g4. d8 g4. fis8 %60
+    e4. d8 c4 d
+    g,8 g16 a h8 g c c' a a
+    d c h g e e a16 h g a
+    fis g e fis d8 d, h' h h h
+    e16 fis d e cis! d h cis a8 h16 cis d8 e16 fis %65
+    g8 e a a, d d'-\solo g, a
+    d, h' g a d, h\pE g a
+    d fis\fE g a d h g a
+    d,4 r r2\fermata \bar "|." %69 finis
+  }
+}
+
+OsannaBassFigures = \figuremode {
+  r1 %54
+  <7 _+>2 <5>4 <4>8 <_+> %55
+  r2. <5>4
+  <[6]> <_+> <[6]>2
+  <6>4 <5>2 \bo <[6]>8 \bc <[5]>
+  <4> <6> <7> <6> r2
+  r1 %60
+  r2 <[6 5]>
+  r <5>4 <[_!]>
+  r <[6]> <5> <5 [_!]>
+  <[6]>2 <5>4 <6>
+  <5 3> \bo <[\t \t]> \bc <[7 _+]>2 %65
+  <6 5>2. \bo <[6 \l]>4
+  r <6>2 q4
+  r8 <6> <6 5>2 \bc <[6 \l]>4
+  r1 %69 finis
+}

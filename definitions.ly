@@ -25,6 +25,7 @@ tempoQuoniam = \tempoMarkup "Allegro"
 tempoSanctus = \tempoMarkup "Grave"
   tempoPleni = \tempoMarkup "Allegro"
 tempoBenedictus = \tempoMarkup "Allegro"
+tempoOsanna = \tempoMarkup "Allegro"
 
 
 \include "notes/ob1.ly"

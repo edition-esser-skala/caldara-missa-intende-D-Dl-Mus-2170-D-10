@@ -228,3 +228,26 @@ BenedictusOboeI = {
     R1.\fermata \bar "||" %53 finis
   }
 }
+
+OsannaOboeI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoOsanna
+      \set Score.currentBarNumber = #54
+    r8 d'\fE d4 d r8 d
+    d d cis cis cis d16 cis h4 %55
+    cis16 a' a a a a a a a a a a h h h h
+    h h h h h h h h a a a a a a a a
+    h h h h h h h h h h h h h h h h
+    a a a a g g g g fis4 r
+    R1*2 %61
+    r16 g g g g g g g e e e e e e e e
+    fis fis fis fis g g g g g g g g a a a a
+    a8 a, d4 r8 fis d d16 d
+    g a fis g e fis d e cis!8 d16 e d8 d %65
+    d4 cis d16 fis fis fis g g e e
+    fis d d d e e cis cis d fis,\pE fis fis g g e e
+    fis8 d'\fE e, cis' d16 fis fis fis g g e e
+    fis4 r r2\fermata \bar "|." %69 finis
+  }
+}

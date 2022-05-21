@@ -300,3 +300,27 @@ BenedictusViolinoII = {
     a,4 r r r2 r4\fermata \bar "||" %53 finis
   }
 }
+
+OsannaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoOsanna
+      \set Score.currentBarNumber = #54
+    r8 \mvTr fis'\fE-\tuttiE d4 fis r8 fis
+    e e e e a, fis' e8. e16 %55
+    e e e e e e e e fis fis fis fis fis fis fis fis
+    gis gis gis gis gis gis gis gis a a a a a a a a
+    a a a a h h h h h h h h g g g g
+    e e d d d d cis cis d4 r
+    r2 r16 d'-\vv c d h c a h %60
+    g8 fis e4. e8 d8. c16
+    h h[-\tutti h h] h h h h c c c c c c c c
+    a a a a h h h h h h h h c c c c
+    d d[-\markup \remark "Oboe col Soprano" d d] d d d d d d d d d d d d
+    g g g g g g g g g g g g fis fis fis fis %65
+    e e e e e e e e d d[-\tuttiE d d] e e cis cis
+    d fis fis fis g g e e fis d,\pE d d e e cis cis
+    d8 d\fE d cis fis16 d' d d e e cis cis
+    d4 r r2\fermata \bar "|." %69 finis
+  }
+}

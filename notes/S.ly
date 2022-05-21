@@ -490,8 +490,45 @@ SanctusSopranoLyrics = \lyricmode {
   sis. %16 finis
 }
 
-% O -- san -- na in ex -- cel -- sis.
-%
+OsannaSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoOsanna
+      \set Score.currentBarNumber = #54
+    r8 \mvTr d'\fE^\tuttiE d4 d r8 d
+    d d cis cis cis([ d16 cis] h4) %55
+    cis r r2
+    r8 e h h16 h e([ fis d e] cis[ d h cis]
+    a8) a r d h h16 h e([ fis)] d([ e)]
+    cis8 d d([ cis)] d4 d~
+    d8 g, d'4. c8 h4~ %60
+    h8[ a] g2 fis4
+    g8 d' h h16 h e([ fis d e] c[ d h c]
+    a8) a r4 r8 e' c c16 c
+    a4 d r8 fis d d16 d
+    g[( a fis g] e[ fis d e] cis!8) d16([ e]) d8 d %65
+    d4( cis) d r
+    R1*2
+    R1\fermata \bar "|." %69 finis
+  }
+}
+
+OsannaSopranoLyrics = \lyricmode {
+  O -- san -- na, o -- %54
+  san -- na in ex -- cel -- %55
+  sis,
+  o -- san -- na, o -- san --
+  na, o -- san -- na, o -- san -- na
+  in ex -- cel -- sis, in __
+  ex -- cel -- _ _ %60
+  _ _
+  \xE sis, o -- san -- na, o -- san --
+  na, o -- san -- na, o --
+  san -- na, o -- san -- na, o --
+  san -- na in ex -- %65
+  cel -- sis. \x %66 finis
+}
+
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:

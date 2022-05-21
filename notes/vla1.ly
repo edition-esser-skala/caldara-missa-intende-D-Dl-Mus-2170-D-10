@@ -215,3 +215,27 @@ SanctusViolaI = {
     a8 a a8. a16 a4 r\fermata \bar "||" %16 finis
   }
 }
+
+OsannaViolaI = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 4/4 \tempoOsanna
+      \set Score.currentBarNumber = #54
+    r8 a'\fE g4 a r8 fis
+    gis gis a4. a8 a gis %55
+    a4 r8 a a a fis fis
+    e e h' h a a a a
+    a a fis fis g g g g
+    a a h g a4 r
+    h4. d8 h4. d8 %60
+    h4 g4. g8 d8. d16
+    d8 d d d e e e e
+    d d d d e e e e
+    fis fis fis fis fis fis g g
+    g g g g e a a a %65
+    g g a8. a16 a8 a h a
+    a h h a a h\p h a
+    a a\f h a a h h a
+    a4 r r2\fermata \bar "|." %69 finis
+  }
+}

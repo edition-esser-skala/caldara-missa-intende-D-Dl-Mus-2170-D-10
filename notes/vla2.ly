@@ -211,3 +211,27 @@ SanctusViolaII = {
     fis d r e d4 r\fermata \bar "||" %16 finis
   }
 }
+
+OsannaViolaII = {
+  \relative c' {
+    \clef tenor
+    \key d \major \time 4/4 \tempoOsanna
+      \set Score.currentBarNumber = #54
+    r8^\critnote d\fE h4 d r8 d
+    h e e e fis4 h,8 e %55
+    e4 r8 e d d d16 e cis d
+    h8 h h e e e e e
+    fis fis d d d d e e
+    e a, e' g d4 r
+    g4. fis8 g4. d8 %60
+    e4. e8 e a, a8. a16
+    h8 h h h g c a a
+    d16 e c d h c a h g8 g c c
+    a a a d h h d d
+    e e e e cis! cis fis d %65
+    e e e8. e16 fis8 fis e e
+    d h e e d d\pE h e
+    d d\fE h e d d h e
+    d4 r r2\fermata \bar "|." %69 finis
+  }
+}

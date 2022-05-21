@@ -540,3 +540,42 @@ BenedictusBassoLyrics = \lyricmode {
   _ _
   _ mi -- ni. \x %48 finis
 }
+
+OsannaBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoOsanna
+      \set Score.currentBarNumber = #54
+    r8 \mvTr d\fE^\tuttiE g4 d r8 d
+    e e a([ g)] fis([ d)] e4 %55
+    a,4 r8 a' fis fis16 fis h([ cis a h]
+    gis[ a fis gis] e8) e r4 r8 a
+    fis fis16 fis h([ cis a h] g8) g, g'4~
+    g8 fis e4 d r
+    g4. d8 g4. fis8 %60
+    e4. d8 c4 d
+    g, r r2
+    r4 r8 g' e e16 e a([ h g a]
+    fis[ g e fis] d8) d r d h h16 h
+    e([ fis d e] cis[ d h cis] a8) h16([ cis)] d8 e16([ fis)] %65
+    g8([ e] a4) d, r
+    R1*2
+    R1\fermata \bar "|." %69 finis
+  }
+}
+
+OsannaBassoLyrics = \lyricmode {
+  O -- san -- na, o -- %54
+  san -- na in __ ex -- cel -- %55
+  sis, o -- san -- na, o -- san --
+  na, o --
+  san -- na, o -- san -- na in __
+  ex -- cel -- sis,
+  in ex -- cel -- _ %60
+  _ _ _ _
+  sis,
+  \xE o -- san -- na, o -- san --
+  na, o -- san -- na, o --
+  san -- \x na in ex -- %65
+  cel -- sis. %66 finis
+}
