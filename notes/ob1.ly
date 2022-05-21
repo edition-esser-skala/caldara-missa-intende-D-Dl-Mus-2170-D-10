@@ -196,3 +196,35 @@ SanctusOboeI = {
     d d' d d d d cis cis d4 r\fermata \bar "||" %16 finis
   }
 }
+
+BenedictusOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \mixolydian \time 6/4 \tempoBenedictus
+      \set Score.currentBarNumber = #17
+    r2 r4 r8 e'\fE gis e gis e
+    a4 r r r8 fis h fis h fis
+    gis e fis gis a gis a2.~
+    a4 a4. gis8 a e a e cis e %20
+    a,4 r r r2 r4
+    R1.
+    r8 e' gis e gis e a4 r r
+    r8 d, fis d fis d a' fis h fis h fis
+    gis e fis gis a gis a2.~ %25
+    a4 a4. gis8 a e a e cis e
+    a,4 r r r2 r4
+    R1.*8 %35
+    r2 r4 r8 e'\f gis e gis e
+    h'4 r r r8 e, gis e gis e
+    a gis fis2 e4 r r
+    R1.*4 %42
+    r2 r4 r8 e\f a e cis e
+    a,4 r r r2 r4
+    R1.*4 %48
+    r8 e' gis e gis e a4 r r
+    r8 fis h fis h fis gis e fis gis a gis %50
+    a2.~ a4 a4. gis8
+    a e a e cis e a,4 r r
+    R1.\fermata \bar "||" %53 finis
+  }
+}

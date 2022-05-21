@@ -257,3 +257,46 @@ SanctusViolinoII = {
     d fis fis fis e e e e fis4 r\fermata \bar "||" %16 finis
   }
 }
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \mixolydian \time 6/4 \tempoBenedictus
+      \set Score.currentBarNumber = #17
+    r8 \mvTr a'\fE-\tutti cis a cis a e'4 r r
+    r8 a, cis a cis a d2.~
+    d r8 cis d cis d cis
+    d cis h2 a4 r r %20
+    r8 e a e cis e a,4 r r
+    r2 r4 r8 a' cis a cis a
+    e'4 r r r8 a, cis a cis a
+    d1.~
+    d2. r8 cis d cis d cis %25
+    d cis h2 a4 r r
+    r8 e a e cis e a,4 r r
+    r2 r4 r8 \mvTr a'\p-\vv cis a cis a
+    d4 r r r8 a cis a cis a
+    e'4 r r r8 d fis d fis d %30
+    e4 r r r8 e gis e gis e
+    a4 r r r8 h, d h d h
+    e4 r r r8 fis a fis a fis
+    h4 r r r8 a, cis a cis a
+    fis'4 r r r8 e gis e gis e %35
+    cis4 r r r2 r4
+    r8 \mvTr h\f-\tutti dis h dis h e2.~
+    e4 e4. dis8 e4 r r
+    r2 r4 r8 \mvTr fis,\p-\vv a fis a fis
+    h4 r r r8 e, gis e gis e %40
+    cis'4 r r r8 h d h d h
+    fis'4 r r r2 r4
+    R1.
+    r8 \mvTr e,\f-\tutti a e cis e a,4 r r
+    R1.*3 %47
+    r2 r4 r8 a' cis a cis a
+    e'4 r r r8 a, cis a cis a
+    d1. %50
+    r8 cis d cis d cis d cis h2
+    a4 r r r8 e a e cis e
+    a,4 r r r2 r4\fermata \bar "||" %53 finis
+  }
+}

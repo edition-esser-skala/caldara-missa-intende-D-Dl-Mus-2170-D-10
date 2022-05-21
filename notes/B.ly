@@ -478,3 +478,65 @@ SanctusBassoLyrics = \lyricmode {
   _ na in __ ex -- cel -- %15
   sis. %16 finis
 }
+
+BenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key a \mixolydian \time 6/4 \autoBeamOff \tempoBenedictus
+      \set Score.currentBarNumber = #17
+    R1.*4 %20
+    r2 r4 \mvTr a'2\pE^\soloE a4
+    d,4. d8 d4 a'2 a,4
+    R1.*4 %26
+    r2 r4 a'2 a4
+    d d8([ cis)] d([ e)] cis([ h)] cis2
+    d4.( cis8) d([ e]) cis([ h)] cis2
+    a4.( h8 cis4) fis,2.( %30
+    gis4.) a8 h4 e,2.(
+    fis4.) gis?8 a4 d,2.
+    e8[ d e fis d e] fis[ e fis gis e fis]
+    gis[ fis gis a fis gis] a[ gis a h gis a]
+    h[ a h cis a h] gis[ fis gis e fis gis] %35
+    a[ fis] h4( h,) e2 r4
+    R1.*2
+    a4.( h8) g!4 fis fis r
+    gis4.( a8[ gis fis]) e4 e r %40
+    a( fis a) h2.~
+    h8[ a] h([ a)] h([ a]) gis[ fis gis e fis gis]
+    a[ d,] e2 a, r4
+    r2 r4 cis'4.( h8 cis4)
+    d8[( cis)] d([ h)] cis([ d]) cis[ h cis a h cis] %45
+    h[ a h gis a h] a[ gis a fis gis a]
+    h[ a h cis h a] gis[ fis gis e fis gis]
+    a[ d,] e2 a, r4
+    R1.*4 %52
+    R1.\fermata \bar "||" %53 finis
+  }
+}
+
+BenedictusBassoLyrics = \lyricmode {
+  \xE Be -- ne -- %21
+  di -- ctus, qui ve -- nit,
+
+  be -- ne -- %27
+  di -- ctus, qui ve -- nit,
+  be -- ne -- di -- ctus,
+  qui __ ve -- %30
+  nit in no --
+  mi -- ne Do --
+  _ _
+  _ _
+  _ _ %35
+  _ mi -- ni,
+
+  be -- ne -- di -- ctus, %39
+  qui __ ve -- nit %40
+  in __ no --
+  mi -- ne Do --
+  _ mi -- ni,
+  in __
+  no -- mi -- ne Do -- %45
+  _ _
+  _ _
+  _ mi -- ni. \x %48 finis
+}

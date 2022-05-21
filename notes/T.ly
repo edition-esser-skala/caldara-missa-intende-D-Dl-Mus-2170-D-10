@@ -483,3 +483,67 @@ SanctusTenoreLyrics = \lyricmode {
   _ na in ex -- cel -- %15
   sis. %16 finis
 }
+
+BenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \mixolydian \time 6/4 \autoBeamOff \tempoBenedictus
+      \set Score.currentBarNumber = #17
+    R1.*4 %20
+    r2 r4 \mvTr e4.(\pE^\soloE fis8) e4
+    fis fis8([ e)] fis([ d)] e4 a, r
+    R1.*4 %26
+    r2 r4 e'4.( fis8) e4
+    fis fis8([ e)] fis([ g)] e([ d)] e2
+    fis4.( e8) fis([ g]) e([ d)] e2
+    r r4 d4.( e8 fis4) %30
+    h,2.( cis4.) d8 e4
+    a,2.( h4.) cis8 d4
+    gis,8[ fis gis a fis gis] a[ gis a h gis a]
+    h[ a h cis a h] cis[ h cis dis h cis]
+    dis[ cis dis e cis dis] e2.~ %35
+    e8[ fis] dis4.( cis16[ dis]) e2 r4
+    R1.
+    r2 r4 e4.( fis8) d!4
+    cis cis r d4.( e8[ d cis])
+    h4 h r e( cis e) %40
+    fis2.~ fis8[ e] fis([ e]) fis([ e])
+    d2.~ d4. e8[ d e]
+    cis[ d] h2 a r4
+    r2 r4 e'4.( d8 e4)
+    fis8[( e]) fis([ d)] e([ fis]) e[ d e cis d e] %45
+    d[ cis d h cis d] cis[ h cis a h cis]
+    d2.~ d4. e8[ d e]
+    cis[ d] h2 a r4
+    R1.*4 %52
+    R1.\fermata \bar "||" %53 finis
+  }
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+  \xE Be -- ne -- %21
+  di -- ctus, qui ve -- nit,
+
+  be -- ne -- %27
+  di -- ctus, qui ve -- nit,
+  be -- ne -- di -- ctus,
+  qui __ %30
+  ve -- nit in
+  no -- mi -- ne
+  Do -- _
+  _ _
+  _ _ %35
+  mi -- ni,
+
+  be -- ne --
+  di -- ctus, qui __
+  ve -- nit in __ %40
+  no -- mi -- ne
+  Do -- _
+  _ mi -- ni,
+  in __
+  no -- mi -- ne Do -- %45
+  _ _
+  _ _
+  _ mi -- ni. \x %48 finis
+}

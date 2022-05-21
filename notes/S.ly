@@ -490,7 +490,6 @@ SanctusSopranoLyrics = \lyricmode {
   sis. %16 finis
 }
 
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
 % O -- san -- na in ex -- cel -- sis.
 %
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:

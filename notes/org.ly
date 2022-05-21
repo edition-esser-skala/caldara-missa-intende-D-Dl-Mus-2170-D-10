@@ -766,3 +766,88 @@ SanctusBassFigures = \figuremode {
   r2. <4>8 <3> %15
   r4 \bo <[4]>8 \bc <[3]> r2 %16 finis
 }
+
+BenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key a \mixolydian \time 6/4 \tempoBenedictus
+      \set Score.currentBarNumber = #17
+    \mvTr a'4\fE-\solo r r gis r r
+    fis r r d r r
+    e r r a, r r
+    d e e, a r r %20
+    a r r a r r
+    d\pE r r a\fE r r
+    gis r r fis r r
+    d' r r d r r
+    e r r a, r r %25
+    d e e, a r r
+    a r r a r r
+    d\pE r r a r r
+    fis r r a r r
+    a r r fis' r r %30
+    gis r r e r r
+    fis r r d r r
+    e r r fis r r
+    gis r r a r r
+    h r r gis r r %35
+    a h h, e\fE r r
+    dis r r cis r r
+    a h2 e4 r r
+    a,\pE r r d r r
+    e r r e, r r %40
+    a r r h r r
+    h r r e r r
+    a,8 d e4 e, a r r
+    a\fE r r a r r
+    d\pE r r cis r r %45
+    h r r a r r
+    d r r e r r
+    a,8 d e4 e, a\fE r r
+    gis r r fis r r
+    d' r r e r r %50
+    a, r r d e e,
+    a r r a r r
+    a r r r2 r4\fermata \bar "||" %53 finis
+  }
+}
+
+BenedictusBassFigures = \figuremode {
+  r2. \bc <[6]> %17
+  <5> \bc <[6]>
+  <7 _+>1.
+  r4 <4> <_+> r2. %20
+  r1.
+  r
+  \bo <[6]>2. <5>
+  r <5>4 \bc <[6]>2
+  <7 _+>1. %25
+  r4 <4> <_+> r2.
+  r1.
+  r
+  <6>
+  r2. \bo <[6]> %30
+  <5> \bc <[6] _+>
+  <5> <6>
+  <_+> <5>
+  <6>1.
+  <_+>2. <6> %35
+  r4 <_+>2 <[_+]>2.
+  <6> <5+>
+  <5>4 <4> <_+> q2.
+  r1.
+  <_+>2. q %40
+  <[6]> <5>
+  r <[7] _+>
+  r4 <4> <_+> r2.
+  r1.
+  r2. <6> %45
+  <6\\>1.
+  <6>2. <7 _+>
+  r4 \bo <[4]> \bc <[_+]> r2.
+  <[6]> <5>
+  <6> <7 _+> %50
+  r1 <4>4 <_+>
+  r1.
+  r %53 finis
+}
