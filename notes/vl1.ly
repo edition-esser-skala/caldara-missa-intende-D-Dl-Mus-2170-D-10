@@ -416,6 +416,6 @@ AgnusViolinoI = {
     fis8 fis r d' d16 a c8 h8. h16
     a4 r16 a a a a a e e a a a a %25
     a a a a gis gis gis gis a8 e cis e
-    a, cis16 e a4 r2\fermata \bar "||" %27 finis
+    a, cis16 e a4 r2\fermata \mark \critnote \bar "||" %27 finis
   }
 }

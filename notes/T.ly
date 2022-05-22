@@ -4,7 +4,7 @@ GloriaTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \major \time 4/4 \autoBeamOff \tempoGloria
-    \mvTr d8\fE^\tuttiE d16 d d8 d e e e e
+    \mvDl d8\fE^\tuttiE d16 d d8 d e e e e
     d d16 d r4 r2
     R1*4 %6
     fis8 fis16 fis fis8 fis e d e e
@@ -618,7 +618,7 @@ AgnusTenore = {
     h h r h d d d4
     d r8 d a[ cis fis, fis']~ %25
     fis e d4 e2~
-    e r\fermata \bar "||" %27 finis
+    e r\fermata \mark \critnote \bar "||" %27 finis
   }
 }
 

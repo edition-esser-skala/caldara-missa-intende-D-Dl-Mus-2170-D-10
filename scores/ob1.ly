@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "ob 1")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,45 +12,29 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \GloriaOrgano
+          \set Staff.instrumentName = "Oboe I"
+          \GloriaOboeI
         }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Domine Deus, Rex cœlestis"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DomineDeusOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Domine Fili"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DomineFiliOrgano }
       >>
     }
   }
   \bookpart {
     \subsection "Domine Deus, Agnus Dei"
     \addTocEntry
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \DomineAgnusOrgano }
+        \new Staff { \DomineAgnusOboeI }
       >>
     }
   }
   \bookpart {
     \subsection "Qui tollis"
     \addTocEntry
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \QuiTollisOrgano }
+        \new Staff { \QuiTollisOboeI }
       >>
     }
   }
@@ -59,7 +43,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuoniamOrgano }
+        \new Staff { \QuoniamOboeI }
       >>
     }
   }
@@ -69,35 +53,37 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \SanctusOrgano }
+        \new Staff { \SanctusOboeI }
       >>
     }
   }
   \bookpart {
     \subsection "Benedictus"
     \addTocEntry
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \BenedictusOrgano }
+        \new Staff { \BenedictusOboeI }
       >>
     }
   }
   \bookpart {
     \subsection "Osanna"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \OsannaOrgano }
+        \new Staff { \OsannaOboeI }
       >>
     }
   }
   \bookpart {
     \section "3" "Agnus"
     \addTocEntry
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \AgnusOrgano }
+        \new Staff { \AgnusOboeI }
       >>
     }
   }

@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "clno")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,18 +12,9 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \GloriaOrgano
+          \set Staff.instrumentName = \transposedNameShort "clno" "D" ""
+          \GloriaClarino
         }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Domine Deus, Rex cœlestis"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DomineDeusOrgano }
       >>
     }
   }
@@ -32,25 +23,20 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \DomineFiliOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Domine Deus, Agnus Dei"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DomineAgnusOrgano }
+        \new Staff {
+          \set Staff.instrumentName = \markup \center-column { "clno" "solo" }
+          \DomineFiliClarino
+        }
       >>
     }
   }
   \bookpart {
     \subsection "Qui tollis"
     \addTocEntry
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \QuiTollisOrgano }
+        \new Staff { \QuiTollisClarino }
       >>
     }
   }
@@ -59,7 +45,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuoniamOrgano }
+        \new Staff { \QuoniamClarino }
       >>
     }
   }
@@ -69,16 +55,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \SanctusOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Benedictus"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \BenedictusOrgano }
+        \new Staff { \SanctusClarino }
       >>
     }
   }
@@ -88,16 +65,17 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \OsannaOrgano }
+        \new Staff { \OsannaClarino }
       >>
     }
   }
   \bookpart {
     \section "3" "Agnus"
     \addTocEntry
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \AgnusOrgano }
+        \new Staff { \AgnusClarino }
       >>
     }
   }

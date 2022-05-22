@@ -4,7 +4,7 @@ GloriaAlto = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \autoBeamOff \tempoGloria
-    \mvTr a'8\fE^\tuttiE a16 a a8 a g g g a
+    \mvDl a'8\fE^\tuttiE a16 a a8 a g g g a
     a a16 a r4 r2
     R1*4 %6
     a8 a16 a a8 a a fis h a
@@ -580,7 +580,7 @@ AgnusAlto = {
     fis fis r g a a g4
     fis r8 a a e a4~ %25
     a gis a2~
-    a r\fermata \bar "||" %27 finis
+    a r\fermata \mark \critnote \bar "||" %27 finis
   }
 }
 

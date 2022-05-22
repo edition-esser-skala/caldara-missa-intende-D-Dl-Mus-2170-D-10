@@ -270,6 +270,6 @@ AgnusViolaII = {
     h h r h d d d4
     d r8 d a cis fis, fis'~ %25
     fis e d4 e2~
-    e r\fermata \bar "||" %27 finis
+    e r\fermata \mark \critnote \bar "||" %27 finis
   }
 }

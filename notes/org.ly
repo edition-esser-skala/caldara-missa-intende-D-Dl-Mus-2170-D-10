@@ -929,7 +929,7 @@ AgnusOrgano = {
     h h, r h' fis fis g4
     d r8 d cis4 d %25
     h2 a~
-    a r\fermata \bar "||" %27 finis
+    a r\fermata \mark \critnote \bar "||" %27 finis
   }
 }
 

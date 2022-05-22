@@ -359,6 +359,6 @@ AgnusViolinoII = {
     e d r g a a g8. g16
     fis4 r8 d e4. d8 %25
     d2. cis8 h
-    cis2 r\fermata \bar "||" %27 finis
+    cis2 r\fermata \mark \critnote \bar "||" %27 finis
   }
 }

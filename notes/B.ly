@@ -4,7 +4,7 @@ GloriaBasso = {
   \relative c {
     \clef bass
     \key d \major \time 4/4 \autoBeamOff \tempoGloria
-    \mvTr d'8\fE^\tuttiE d16 d d8 d d d cis a
+    \mvDl d'8\fE^\tuttiE d16 d d8 d d d cis a
     d8 d,16 d r4 r2
     R1*4 %6
     d8 d16 e fis8 g a h g a
@@ -611,7 +611,7 @@ AgnusBasso = {
     h h, r h' fis fis g4
     d r8 d cis4 d
     h2 a~
-    a r\fermata \bar "||"
+    a r\fermata \mark \critnote \bar "||"
   }
 }
 

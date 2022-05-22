@@ -4,7 +4,7 @@ GloriaSoprano = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \autoBeamOff \tempoGloria
-    \mvTr fis'8\fE^\tuttiE fis16 fis fis8 fis e e e e
+    \mvDl fis'8\fE^\tuttiE fis16 fis fis8 fis e e e e
     fis fis16 fis r4 r2
     R1*4 %6
     d8 d16 d d8 d cis d d cis
@@ -561,7 +561,7 @@ AgnusSoprano = {
     e d r d d c h4
     a r8 d e4. d8 %25
     d2.( cis8[ h])
-    cis2 r\fermata \bar "||" %27 finis
+    cis2 r\fermata \mark \critnote \bar "||" %27 finis
   }
 }
 

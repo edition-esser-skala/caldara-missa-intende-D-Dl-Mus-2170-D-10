@@ -238,6 +238,6 @@ AgnusClarino = {
     fis8 d r g a a g8. g16
     fis4 r8 a a e \once \tieDashed a4~ %25
     a gis a r8 a
-    a2 r\fermata \bar "||" %27 finis
+    a2 r\fermata \mark \critnote \bar "||" %27 finis
   }
 }
